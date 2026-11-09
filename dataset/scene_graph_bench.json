@@ -1,0 +1,998 @@
+{
+ "frames": 93,
+ "prompts": [
+  {
+   "id": "F1",
+   "pattern": "flashback",
+   "sentences": [
+    "An old fisherman with a white beard sits on a wooden dock at sunset, holding a faded photograph.",
+    "A young boy in a blue shirt runs along a sandy beach flying a red kite on a bright summer day.",
+    "A young boy in a blue shirt builds a sandcastle on a sandy beach on a bright summer day.",
+    "An old fisherman with a white beard sits on a wooden dock at sunset, smiling as he puts the photograph away."
+   ],
+   "prompt": "An old fisherman with a white beard sits on a wooden dock at sunset, holding a faded photograph. A young boy in a blue shirt runs along a sandy beach flying a red kite on a bright summer day. A young boy in a blue shirt builds a sandcastle on a sandy beach on a bright summer day. An old fisherman with a white beard sits on a wooden dock at sunset, smiling as he puts the photograph away.",
+   "edges": [
+    [
+     0,
+     3,
+     "old fisherman"
+    ],
+    [
+     1,
+     2,
+     "young boy"
+    ]
+   ],
+   "subject": "old fisherman",
+   "category": "flashback",
+   "order_type": "graph",
+   "shot": "flashback",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "pattern": "flashback",
+   "sentences": [
+    "A woman in a red coat stands on a snowy train platform, reading an old letter.",
+    "A young woman in a white dress dances in a sunflower field under a clear blue sky.",
+    "A young woman in a white dress picks sunflowers in a sunflower field under a clear blue sky.",
+    "A woman in a red coat boards a train on a snowy train platform, holding the old letter."
+   ],
+   "prompt": "A woman in a red coat stands on a snowy train platform, reading an old letter. A young woman in a white dress dances in a sunflower field under a clear blue sky. A young woman in a white dress picks sunflowers in a sunflower field under a clear blue sky. A woman in a red coat boards a train on a snowy train platform, holding the old letter.",
+   "edges": [
+    [
+     0,
+     3,
+     "woman in a red coat"
+    ],
+    [
+     1,
+     2,
+     "young woman in a white dress"
+    ]
+   ],
+   "subject": "woman in a red coat",
+   "category": "flashback",
+   "order_type": "graph",
+   "shot": "flashback",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "pattern": "flashback",
+   "sentences": [
+    "A gray-haired chef in a black apron stands alone in a quiet modern restaurant kitchen at night.",
+    "A small girl with pigtails stirs a pot of soup in a cozy rustic farmhouse kitchen.",
+    "A small girl with pigtails tastes soup from a wooden spoon in a cozy rustic farmhouse kitchen.",
+    "A gray-haired chef in a black apron plates a bowl of soup in a quiet modern restaurant kitchen at night."
+   ],
+   "prompt": "A gray-haired chef in a black apron stands alone in a quiet modern restaurant kitchen at night. A small girl with pigtails stirs a pot of soup in a cozy rustic farmhouse kitchen. A small girl with pigtails tastes soup from a wooden spoon in a cozy rustic farmhouse kitchen. A gray-haired chef in a black apron plates a bowl of soup in a quiet modern restaurant kitchen at night.",
+   "edges": [
+    [
+     0,
+     3,
+     "gray-haired chef"
+    ],
+    [
+     1,
+     2,
+     "small girl with pigtails"
+    ]
+   ],
+   "subject": "gray-haired chef",
+   "category": "flashback",
+   "order_type": "graph",
+   "shot": "flashback",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "C1",
+   "pattern": "crosscut",
+   "sentences": [
+    "A firefighter in a yellow helmet climbs a ladder against a burning building at night.",
+    "A cat with orange fur hides under a bed in a smoke-filled bedroom.",
+    "A firefighter in a yellow helmet breaks a window of a burning building at night.",
+    "A cat with orange fur meows on a windowsill in a smoke-filled bedroom."
+   ],
+   "prompt": "A firefighter in a yellow helmet climbs a ladder against a burning building at night. A cat with orange fur hides under a bed in a smoke-filled bedroom. A firefighter in a yellow helmet breaks a window of a burning building at night. A cat with orange fur meows on a windowsill in a smoke-filled bedroom.",
+   "edges": [
+    [
+     0,
+     2,
+     "firefighter in a yellow helmet"
+    ],
+    [
+     1,
+     3,
+     "cat with orange fur"
+    ]
+   ],
+   "subject": "firefighter in a yellow helmet",
+   "category": "crosscut",
+   "order_type": "graph",
+   "shot": "crosscut",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "C2",
+   "pattern": "crosscut",
+   "sentences": [
+    "A cyclist in a green jersey races down a mountain road through a pine forest.",
+    "A man in a gray suit waits at a finish line under a red banner in a crowded town square.",
+    "A cyclist in a green jersey sprints around a sharp bend on a mountain road through a pine forest.",
+    "A man in a gray suit checks a stopwatch at a finish line under a red banner in a crowded town square."
+   ],
+   "prompt": "A cyclist in a green jersey races down a mountain road through a pine forest. A man in a gray suit waits at a finish line under a red banner in a crowded town square. A cyclist in a green jersey sprints around a sharp bend on a mountain road through a pine forest. A man in a gray suit checks a stopwatch at a finish line under a red banner in a crowded town square.",
+   "edges": [
+    [
+     0,
+     2,
+     "cyclist in a green jersey"
+    ],
+    [
+     1,
+     3,
+     "man in a gray suit"
+    ]
+   ],
+   "subject": "cyclist in a green jersey",
+   "category": "crosscut",
+   "order_type": "graph",
+   "shot": "crosscut",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "C3",
+   "pattern": "crosscut",
+   "sentences": [
+    "A sailor in a striped shirt steers a small boat through stormy waves at sea.",
+    "A woman in a blue scarf lights a lantern inside a lighthouse on a rocky cliff.",
+    "A sailor in a striped shirt pulls a rope on a small boat in stormy waves at sea.",
+    "A woman in a blue scarf waves a lantern from a lighthouse window on a rocky cliff."
+   ],
+   "prompt": "A sailor in a striped shirt steers a small boat through stormy waves at sea. A woman in a blue scarf lights a lantern inside a lighthouse on a rocky cliff. A sailor in a striped shirt pulls a rope on a small boat in stormy waves at sea. A woman in a blue scarf waves a lantern from a lighthouse window on a rocky cliff.",
+   "edges": [
+    [
+     0,
+     2,
+     "sailor in a striped shirt"
+    ],
+    [
+     1,
+     3,
+     "woman in a blue scarf"
+    ]
+   ],
+   "subject": "sailor in a striped shirt",
+   "category": "crosscut",
+   "order_type": "graph",
+   "shot": "crosscut",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "V1",
+   "pattern": "converge",
+   "sentences": [
+    "A man with a brown backpack walks through a busy city street at noon.",
+    "A woman with a black umbrella walks through a quiet park at noon.",
+    "A man with a brown backpack and a woman with a black umbrella meet at a table outside a cafe.",
+    "A man with a brown backpack and a woman with a black umbrella laugh together at a table outside a cafe."
+   ],
+   "prompt": "A man with a brown backpack walks through a busy city street at noon. A woman with a black umbrella walks through a quiet park at noon. A man with a brown backpack and a woman with a black umbrella meet at a table outside a cafe. A man with a brown backpack and a woman with a black umbrella laugh together at a table outside a cafe.",
+   "edges": [
+    [
+     0,
+     2,
+     "man with a brown backpack"
+    ],
+    [
+     0,
+     3,
+     "man with a brown backpack"
+    ],
+    [
+     1,
+     2,
+     "woman with a black umbrella"
+    ],
+    [
+     1,
+     3,
+     "woman with a black umbrella"
+    ],
+    [
+     2,
+     3,
+     "man with a brown backpack"
+    ]
+   ],
+   "subject": "man with a brown backpack",
+   "category": "converge",
+   "order_type": "graph",
+   "shot": "converge",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "V2",
+   "pattern": "converge",
+   "sentences": [
+    "A golden retriever runs across a green meadow chasing a butterfly.",
+    "A boy in a red cap rides a bicycle along a quiet country lane.",
+    "A boy in a red cap kneels in a green meadow petting a golden retriever.",
+    "A boy in a red cap and a golden retriever sit together under a large oak tree."
+   ],
+   "prompt": "A golden retriever runs across a green meadow chasing a butterfly. A boy in a red cap rides a bicycle along a quiet country lane. A boy in a red cap kneels in a green meadow petting a golden retriever. A boy in a red cap and a golden retriever sit together under a large oak tree.",
+   "edges": [
+    [
+     0,
+     2,
+     "golden retriever"
+    ],
+    [
+     0,
+     3,
+     "golden retriever"
+    ],
+    [
+     1,
+     2,
+     "boy in a red cap"
+    ],
+    [
+     1,
+     3,
+     "boy in a red cap"
+    ],
+    [
+     2,
+     3,
+     "golden retriever"
+    ]
+   ],
+   "subject": "golden retriever",
+   "category": "converge",
+   "order_type": "graph",
+   "shot": "converge",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "V3",
+   "pattern": "converge",
+   "sentences": [
+    "A violinist in a black dress tunes a violin in an empty concert hall.",
+    "A pianist in a white tuxedo practices on a grand piano in a small apartment.",
+    "A violinist in a black dress and a pianist in a white tuxedo bow on the stage of a concert hall.",
+    "A violinist in a black dress and a pianist in a white tuxedo perform together on the stage of a concert hall."
+   ],
+   "prompt": "A violinist in a black dress tunes a violin in an empty concert hall. A pianist in a white tuxedo practices on a grand piano in a small apartment. A violinist in a black dress and a pianist in a white tuxedo bow on the stage of a concert hall. A violinist in a black dress and a pianist in a white tuxedo perform together on the stage of a concert hall.",
+   "edges": [
+    [
+     0,
+     2,
+     "violinist in a black dress"
+    ],
+    [
+     0,
+     3,
+     "violinist in a black dress"
+    ],
+    [
+     1,
+     2,
+     "pianist in a white tuxedo"
+    ],
+    [
+     1,
+     3,
+     "pianist in a white tuxedo"
+    ],
+    [
+     2,
+     3,
+     "violinist in a black dress"
+    ]
+   ],
+   "subject": "violinist in a black dress",
+   "category": "converge",
+   "order_type": "graph",
+   "shot": "converge",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L1",
+   "pattern": "linear",
+   "sentences": [
+    "A potter with clay-covered hands centers a lump of clay on a spinning wheel in a sunlit studio.",
+    "A potter with clay-covered hands shapes the clay into a tall vase on a spinning wheel in a sunlit studio.",
+    "A potter with clay-covered hands paints blue patterns on a tall vase in a sunlit studio.",
+    "A potter with clay-covered hands places a finished blue vase on a wooden shelf in a sunlit studio."
+   ],
+   "prompt": "A potter with clay-covered hands centers a lump of clay on a spinning wheel in a sunlit studio. A potter with clay-covered hands shapes the clay into a tall vase on a spinning wheel in a sunlit studio. A potter with clay-covered hands paints blue patterns on a tall vase in a sunlit studio. A potter with clay-covered hands places a finished blue vase on a wooden shelf in a sunlit studio.",
+   "edges": [
+    [
+     0,
+     1,
+     "potter"
+    ],
+    [
+     0,
+     2,
+     "potter"
+    ],
+    [
+     0,
+     3,
+     "potter"
+    ],
+    [
+     1,
+     2,
+     "potter"
+    ],
+    [
+     1,
+     3,
+     "potter"
+    ],
+    [
+     2,
+     3,
+     "potter"
+    ]
+   ],
+   "subject": "potter",
+   "category": "linear",
+   "order_type": "graph",
+   "shot": "linear",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L2",
+   "pattern": "linear",
+   "sentences": [
+    "A woman in a green hoodie jogs along a river path at dawn.",
+    "A woman in a green hoodie stretches on a bench beside a river at dawn.",
+    "A woman in a green hoodie drinks water from a bottle beside a river at dawn.",
+    "A woman in a green hoodie walks across a stone bridge over a river at dawn."
+   ],
+   "prompt": "A woman in a green hoodie jogs along a river path at dawn. A woman in a green hoodie stretches on a bench beside a river at dawn. A woman in a green hoodie drinks water from a bottle beside a river at dawn. A woman in a green hoodie walks across a stone bridge over a river at dawn.",
+   "edges": [
+    [
+     0,
+     1,
+     "woman in a green hoodie"
+    ],
+    [
+     0,
+     2,
+     "woman in a green hoodie"
+    ],
+    [
+     0,
+     3,
+     "woman in a green hoodie"
+    ],
+    [
+     1,
+     2,
+     "woman in a green hoodie"
+    ],
+    [
+     1,
+     3,
+     "woman in a green hoodie"
+    ],
+    [
+     2,
+     3,
+     "woman in a green hoodie"
+    ]
+   ],
+   "subject": "woman in a green hoodie",
+   "category": "linear",
+   "order_type": "graph",
+   "shot": "linear",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L3",
+   "pattern": "linear",
+   "sentences": [
+    "A small red fox sniffs the snow in a white winter forest.",
+    "A small red fox pounces into deep snow in a white winter forest.",
+    "A small red fox carries a stick through the snow in a white winter forest.",
+    "A small red fox curls up to sleep under a snowy pine tree in a white winter forest."
+   ],
+   "prompt": "A small red fox sniffs the snow in a white winter forest. A small red fox pounces into deep snow in a white winter forest. A small red fox carries a stick through the snow in a white winter forest. A small red fox curls up to sleep under a snowy pine tree in a white winter forest.",
+   "edges": [
+    [
+     0,
+     1,
+     "small red fox"
+    ],
+    [
+     0,
+     2,
+     "small red fox"
+    ],
+    [
+     0,
+     3,
+     "small red fox"
+    ],
+    [
+     1,
+     2,
+     "small red fox"
+    ],
+    [
+     1,
+     3,
+     "small red fox"
+    ],
+    [
+     2,
+     3,
+     "small red fox"
+    ]
+   ],
+   "subject": "small red fox",
+   "category": "linear",
+   "order_type": "graph",
+   "shot": "linear",
+   "segments": {
+    "93": {
+     "latent_frames": 24,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

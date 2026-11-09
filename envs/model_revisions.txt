@@ -1,0 +1,8 @@
+# Hugging Face repository and snapshot used for the paper.
+hunyuanvideo-community/HunyuanVideo-1.5-Diffusers-480p_t2v 286be7ce72277246578a3e3cc2487e95ddae5bcf
+Wan-AI/Wan2.2-TI2V-5B-Diffusers b8fff7315c768468a5333511427288870b2e9635
+MiniMaxAI/MiniMax-H3 42ed227ee7df40d41602854ae760620d6eb651fe
+zai-org/CogVideoX1.5-5B fdc5267c90b5c06492985b966e43aae984e189e0
+openai/clip-vit-base-patch32 3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268
+facebook/dinov2-base f9e44c814b77203eaa57a6bdbbd535f21ede1415
+IDEA-Research/grounding-dino-base 12bdfa3120f3e7ec7b434d90674b3396eccf88eb

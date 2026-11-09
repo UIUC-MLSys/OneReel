@@ -1,0 +1,51 @@
+# Editors and secrets
+.vscode/
+.claude/
+.cache/
+.openai_key
+gemini-api-key.json
+gen-lang-client-*.json
+.config/
+
+# Python build and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Runtime outputs
+logs/
+output/
+outputs/
+test_video/
+evaluation_results/
+*.log
+*.out
+*.err
+
+# Generated visual assets
+assets/
+figures/*.png
+figures/*.pdf
+evaluation/*.png
+dataset/distribution.png
+
+# Generated analysis/evaluation tables
+analysis/vbench_*
+analysis/*.csv
+analysis/*.json
+eval/*.csv
+
+# crash dumps
+core.*
+
+# per-cluster settings written by scripts/setup_env.sh, and its default data root
+env.local.sh
+data/
+
+# external code the baselines need (see README)
+third_party/Sana/
+third_party/HoloCine/
+third_party/flash-attention/

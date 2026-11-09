@@ -1,0 +1,4646 @@
+{
+ "groups": [
+  {
+   "group": "W1",
+   "category": "weather",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water.",
+    "B": "A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water.",
+    "C": "A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water."
+   }
+  },
+  {
+   "group": "W2",
+   "category": "weather",
+   "order": "neutral",
+   "shot": "continuous",
+   "events": {
+    "A": "A village street with stone houses under a clear sunny sky, with dry pavement.",
+    "B": "A village street with stone houses in heavy rain, with puddles and people under umbrellas.",
+    "C": "A village street with stone houses in falling snow, with white rooftops and snowy ground."
+   }
+  },
+  {
+   "group": "W3",
+   "category": "weather",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A small white sailboat on a calm turquoise sea under a clear blue sky.",
+    "B": "A small white sailboat in a violent storm, with dark clouds, lightning and huge waves.",
+    "C": "A small white sailboat on a calm sea with a bright rainbow across the sky."
+   }
+  },
+  {
+   "group": "W4",
+   "category": "weather",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A lone oak tree in a meadow in spring, covered in pale pink blossoms.",
+    "B": "A lone oak tree in a meadow in summer, full of dense green leaves.",
+    "C": "A lone oak tree in a meadow in autumn, covered in bright orange and red leaves."
+   }
+  },
+  {
+   "group": "A1",
+   "category": "action",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A chef in a white apron cracks eggs into a glass bowl on a kitchen counter.",
+    "B": "A chef in a white apron cooks an omelette in a black frying pan over a gas flame.",
+    "C": "A chef in a white apron serves a folded omelette on a white plate at a kitchen counter."
+   }
+  },
+  {
+   "group": "A2",
+   "category": "action",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool.",
+    "B": "A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles.",
+    "C": "A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel."
+   }
+  },
+  {
+   "group": "A3",
+   "category": "action",
+   "order": "neutral",
+   "shot": "continuous",
+   "events": {
+    "A": "A young woman in a yellow sweater reads a book on a grey sofa in a living room.",
+    "B": "A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room.",
+    "C": "A young woman in a yellow sweater waters potted plants by a living room window."
+   }
+  },
+  {
+   "group": "A4",
+   "category": "action",
+   "order": "neutral",
+   "shot": "continuous",
+   "events": {
+    "A": "A golden retriever sleeps curled up on a rug in a sunny backyard.",
+    "B": "A golden retriever chases a red ball across the grass in a sunny backyard.",
+    "C": "A golden retriever drinks water from a metal bowl in a sunny backyard."
+   }
+  },
+  {
+   "group": "L1",
+   "category": "location",
+   "order": "neutral",
+   "shot": "cut",
+   "events": {
+    "A": "A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves.",
+    "B": "A hiker with a red backpack walks through a dense green rainforest with giant ferns.",
+    "C": "A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard."
+   }
+  },
+  {
+   "group": "L2",
+   "category": "location",
+   "order": "neutral",
+   "shot": "cut",
+   "events": {
+    "A": "A red sports car speeds along a desert highway between orange sand dunes.",
+    "B": "A red sports car drives through a city street at night lit by neon signs.",
+    "C": "A red sports car drives along a winding road through a snowy pine forest."
+   }
+  },
+  {
+   "group": "L3",
+   "category": "location",
+   "order": "neutral",
+   "shot": "cut",
+   "events": {
+    "A": "A cyclist in a blue jersey rides past rows of colorful tulips in a flower field.",
+    "B": "A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town.",
+    "C": "A cyclist in a blue jersey rides along a dusty trail through a red rock canyon."
+   }
+  },
+  {
+   "group": "L4",
+   "category": "location",
+   "order": "neutral",
+   "shot": "cut",
+   "events": {
+    "A": "A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees.",
+    "B": "A small wooden rowboat floats among white icebergs in dark arctic water.",
+    "C": "A small wooden rowboat floats along a narrow canal between old houses in Venice."
+   }
+  },
+  {
+   "group": "O1",
+   "category": "object",
+   "order": "neutral",
+   "shot": "continuous",
+   "events": {
+    "A": "A single red apple sits on a wooden table in a bright kitchen.",
+    "B": "A blue ceramic teapot sits on a wooden table in a bright kitchen.",
+    "C": "A tall stack of old books sits on a wooden table in a bright kitchen."
+   }
+  },
+  {
+   "group": "O2",
+   "category": "object",
+   "order": "neutral",
+   "shot": "continuous",
+   "events": {
+    "A": "A colorful hot air balloon drifts across a clear blue sky above green hills.",
+    "B": "A large flock of birds flies across a clear blue sky above green hills.",
+    "C": "A white passenger airplane flies across a clear blue sky above green hills."
+   }
+  },
+  {
+   "group": "O3",
+   "category": "object",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A tall white candle stands unlit on a dark wooden table in a quiet room.",
+    "B": "A tall white candle burns with a bright flickering flame on a dark wooden table.",
+    "C": "A puddle of melted wax with a thin trail of smoke on a dark wooden table."
+   }
+  },
+  {
+   "group": "O4",
+   "category": "object",
+   "order": "natural",
+   "shot": "continuous",
+   "events": {
+    "A": "A grassy lot with no buildings on a quiet suburban street under a blue sky.",
+    "B": "A wooden house frame with scaffolding on a grassy lot on a quiet suburban street.",
+    "C": "A finished white house with a red roof on a grassy lot on a quiet suburban street."
+   }
+  }
+ ],
+ "prompts": [
+  {
+   "id": "W1_ABC",
+   "group": "W1",
+   "category": "weather",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "wooden pier",
+   "sentences": [
+    "A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water.",
+    "A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water.",
+    "A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water."
+   ],
+   "prompt": "A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water. A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water. A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water.",
+   "prompt_explicit": "First, a wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water. Then, a wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water. Finally, a wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W1_BCA",
+   "group": "W1",
+   "category": "weather",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "wooden pier",
+   "sentences": [
+    "A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water.",
+    "A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water.",
+    "A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water."
+   ],
+   "prompt": "A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water. A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water. A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water.",
+   "prompt_explicit": "First, a wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water. Then, a wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water. Finally, a wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W1_CAB",
+   "group": "W1",
+   "category": "weather",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "wooden pier",
+   "sentences": [
+    "A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water.",
+    "A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water.",
+    "A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water."
+   ],
+   "prompt": "A wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water. A wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water. A wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water.",
+   "prompt_explicit": "First, a wooden pier on a mountain lake at night, with a dark sky full of stars reflected in the water. Then, a wooden pier on a mountain lake at dawn, with a pale pink sky and thin mist over the water. Finally, a wooden pier on a mountain lake at noon, with a bright blue sky and sunlight glittering on the water.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W2_ABC",
+   "group": "W2",
+   "category": "weather",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "stone house",
+   "sentences": [
+    "A village street with stone houses under a clear sunny sky, with dry pavement.",
+    "A village street with stone houses in heavy rain, with puddles and people under umbrellas.",
+    "A village street with stone houses in falling snow, with white rooftops and snowy ground."
+   ],
+   "prompt": "A village street with stone houses under a clear sunny sky, with dry pavement. A village street with stone houses in heavy rain, with puddles and people under umbrellas. A village street with stone houses in falling snow, with white rooftops and snowy ground.",
+   "prompt_explicit": "First, a village street with stone houses under a clear sunny sky, with dry pavement. Then, a village street with stone houses in heavy rain, with puddles and people under umbrellas. Finally, a village street with stone houses in falling snow, with white rooftops and snowy ground.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W2_BCA",
+   "group": "W2",
+   "category": "weather",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "stone house",
+   "sentences": [
+    "A village street with stone houses in heavy rain, with puddles and people under umbrellas.",
+    "A village street with stone houses in falling snow, with white rooftops and snowy ground.",
+    "A village street with stone houses under a clear sunny sky, with dry pavement."
+   ],
+   "prompt": "A village street with stone houses in heavy rain, with puddles and people under umbrellas. A village street with stone houses in falling snow, with white rooftops and snowy ground. A village street with stone houses under a clear sunny sky, with dry pavement.",
+   "prompt_explicit": "First, a village street with stone houses in heavy rain, with puddles and people under umbrellas. Then, a village street with stone houses in falling snow, with white rooftops and snowy ground. Finally, a village street with stone houses under a clear sunny sky, with dry pavement.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W2_CAB",
+   "group": "W2",
+   "category": "weather",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "stone house",
+   "sentences": [
+    "A village street with stone houses in falling snow, with white rooftops and snowy ground.",
+    "A village street with stone houses under a clear sunny sky, with dry pavement.",
+    "A village street with stone houses in heavy rain, with puddles and people under umbrellas."
+   ],
+   "prompt": "A village street with stone houses in falling snow, with white rooftops and snowy ground. A village street with stone houses under a clear sunny sky, with dry pavement. A village street with stone houses in heavy rain, with puddles and people under umbrellas.",
+   "prompt_explicit": "First, a village street with stone houses in falling snow, with white rooftops and snowy ground. Then, a village street with stone houses under a clear sunny sky, with dry pavement. Finally, a village street with stone houses in heavy rain, with puddles and people under umbrellas.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W3_ABC",
+   "group": "W3",
+   "category": "weather",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "white sailboat",
+   "sentences": [
+    "A small white sailboat on a calm turquoise sea under a clear blue sky.",
+    "A small white sailboat in a violent storm, with dark clouds, lightning and huge waves.",
+    "A small white sailboat on a calm sea with a bright rainbow across the sky."
+   ],
+   "prompt": "A small white sailboat on a calm turquoise sea under a clear blue sky. A small white sailboat in a violent storm, with dark clouds, lightning and huge waves. A small white sailboat on a calm sea with a bright rainbow across the sky.",
+   "prompt_explicit": "First, a small white sailboat on a calm turquoise sea under a clear blue sky. Then, a small white sailboat in a violent storm, with dark clouds, lightning and huge waves. Finally, a small white sailboat on a calm sea with a bright rainbow across the sky.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W3_BCA",
+   "group": "W3",
+   "category": "weather",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "white sailboat",
+   "sentences": [
+    "A small white sailboat in a violent storm, with dark clouds, lightning and huge waves.",
+    "A small white sailboat on a calm sea with a bright rainbow across the sky.",
+    "A small white sailboat on a calm turquoise sea under a clear blue sky."
+   ],
+   "prompt": "A small white sailboat in a violent storm, with dark clouds, lightning and huge waves. A small white sailboat on a calm sea with a bright rainbow across the sky. A small white sailboat on a calm turquoise sea under a clear blue sky.",
+   "prompt_explicit": "First, a small white sailboat in a violent storm, with dark clouds, lightning and huge waves. Then, a small white sailboat on a calm sea with a bright rainbow across the sky. Finally, a small white sailboat on a calm turquoise sea under a clear blue sky.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W3_CAB",
+   "group": "W3",
+   "category": "weather",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "white sailboat",
+   "sentences": [
+    "A small white sailboat on a calm sea with a bright rainbow across the sky.",
+    "A small white sailboat on a calm turquoise sea under a clear blue sky.",
+    "A small white sailboat in a violent storm, with dark clouds, lightning and huge waves."
+   ],
+   "prompt": "A small white sailboat on a calm sea with a bright rainbow across the sky. A small white sailboat on a calm turquoise sea under a clear blue sky. A small white sailboat in a violent storm, with dark clouds, lightning and huge waves.",
+   "prompt_explicit": "First, a small white sailboat on a calm sea with a bright rainbow across the sky. Then, a small white sailboat on a calm turquoise sea under a clear blue sky. Finally, a small white sailboat in a violent storm, with dark clouds, lightning and huge waves.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W4_ABC",
+   "group": "W4",
+   "category": "weather",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "oak tree",
+   "sentences": [
+    "A lone oak tree in a meadow in spring, covered in pale pink blossoms.",
+    "A lone oak tree in a meadow in summer, full of dense green leaves.",
+    "A lone oak tree in a meadow in autumn, covered in bright orange and red leaves."
+   ],
+   "prompt": "A lone oak tree in a meadow in spring, covered in pale pink blossoms. A lone oak tree in a meadow in summer, full of dense green leaves. A lone oak tree in a meadow in autumn, covered in bright orange and red leaves.",
+   "prompt_explicit": "First, a lone oak tree in a meadow in spring, covered in pale pink blossoms. Then, a lone oak tree in a meadow in summer, full of dense green leaves. Finally, a lone oak tree in a meadow in autumn, covered in bright orange and red leaves.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W4_BCA",
+   "group": "W4",
+   "category": "weather",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "oak tree",
+   "sentences": [
+    "A lone oak tree in a meadow in summer, full of dense green leaves.",
+    "A lone oak tree in a meadow in autumn, covered in bright orange and red leaves.",
+    "A lone oak tree in a meadow in spring, covered in pale pink blossoms."
+   ],
+   "prompt": "A lone oak tree in a meadow in summer, full of dense green leaves. A lone oak tree in a meadow in autumn, covered in bright orange and red leaves. A lone oak tree in a meadow in spring, covered in pale pink blossoms.",
+   "prompt_explicit": "First, a lone oak tree in a meadow in summer, full of dense green leaves. Then, a lone oak tree in a meadow in autumn, covered in bright orange and red leaves. Finally, a lone oak tree in a meadow in spring, covered in pale pink blossoms.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "W4_CAB",
+   "group": "W4",
+   "category": "weather",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "oak tree",
+   "sentences": [
+    "A lone oak tree in a meadow in autumn, covered in bright orange and red leaves.",
+    "A lone oak tree in a meadow in spring, covered in pale pink blossoms.",
+    "A lone oak tree in a meadow in summer, full of dense green leaves."
+   ],
+   "prompt": "A lone oak tree in a meadow in autumn, covered in bright orange and red leaves. A lone oak tree in a meadow in spring, covered in pale pink blossoms. A lone oak tree in a meadow in summer, full of dense green leaves.",
+   "prompt_explicit": "First, a lone oak tree in a meadow in autumn, covered in bright orange and red leaves. Then, a lone oak tree in a meadow in spring, covered in pale pink blossoms. Finally, a lone oak tree in a meadow in summer, full of dense green leaves.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A1_ABC",
+   "group": "A1",
+   "category": "action",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "chef",
+   "sentences": [
+    "A chef in a white apron cracks eggs into a glass bowl on a kitchen counter.",
+    "A chef in a white apron cooks an omelette in a black frying pan over a gas flame.",
+    "A chef in a white apron serves a folded omelette on a white plate at a kitchen counter."
+   ],
+   "prompt": "A chef in a white apron cracks eggs into a glass bowl on a kitchen counter. A chef in a white apron cooks an omelette in a black frying pan over a gas flame. A chef in a white apron serves a folded omelette on a white plate at a kitchen counter.",
+   "prompt_explicit": "First, a chef in a white apron cracks eggs into a glass bowl on a kitchen counter. Then, a chef in a white apron cooks an omelette in a black frying pan over a gas flame. Finally, a chef in a white apron serves a folded omelette on a white plate at a kitchen counter.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A1_BCA",
+   "group": "A1",
+   "category": "action",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "chef",
+   "sentences": [
+    "A chef in a white apron cooks an omelette in a black frying pan over a gas flame.",
+    "A chef in a white apron serves a folded omelette on a white plate at a kitchen counter.",
+    "A chef in a white apron cracks eggs into a glass bowl on a kitchen counter."
+   ],
+   "prompt": "A chef in a white apron cooks an omelette in a black frying pan over a gas flame. A chef in a white apron serves a folded omelette on a white plate at a kitchen counter. A chef in a white apron cracks eggs into a glass bowl on a kitchen counter.",
+   "prompt_explicit": "First, a chef in a white apron cooks an omelette in a black frying pan over a gas flame. Then, a chef in a white apron serves a folded omelette on a white plate at a kitchen counter. Finally, a chef in a white apron cracks eggs into a glass bowl on a kitchen counter.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A1_CAB",
+   "group": "A1",
+   "category": "action",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "chef",
+   "sentences": [
+    "A chef in a white apron serves a folded omelette on a white plate at a kitchen counter.",
+    "A chef in a white apron cracks eggs into a glass bowl on a kitchen counter.",
+    "A chef in a white apron cooks an omelette in a black frying pan over a gas flame."
+   ],
+   "prompt": "A chef in a white apron serves a folded omelette on a white plate at a kitchen counter. A chef in a white apron cracks eggs into a glass bowl on a kitchen counter. A chef in a white apron cooks an omelette in a black frying pan over a gas flame.",
+   "prompt_explicit": "First, a chef in a white apron serves a folded omelette on a white plate at a kitchen counter. Then, a chef in a white apron cracks eggs into a glass bowl on a kitchen counter. Finally, a chef in a white apron cooks an omelette in a black frying pan over a gas flame.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A2_ABC",
+   "group": "A2",
+   "category": "action",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "swimmer",
+   "sentences": [
+    "A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool.",
+    "A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles.",
+    "A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel."
+   ],
+   "prompt": "A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool. A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles. A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel.",
+   "prompt_explicit": "First, a swimmer in a red cap dives off a starting block, flying through the air above an indoor pool. Then, a swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles. Finally, a swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A2_BCA",
+   "group": "A2",
+   "category": "action",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "swimmer",
+   "sentences": [
+    "A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles.",
+    "A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel.",
+    "A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool."
+   ],
+   "prompt": "A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles. A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel. A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool.",
+   "prompt_explicit": "First, a swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles. Then, a swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel. Finally, a swimmer in a red cap dives off a starting block, flying through the air above an indoor pool.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A2_CAB",
+   "group": "A2",
+   "category": "action",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "swimmer",
+   "sentences": [
+    "A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel.",
+    "A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool.",
+    "A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles."
+   ],
+   "prompt": "A swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel. A swimmer in a red cap dives off a starting block, flying through the air above an indoor pool. A swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles.",
+   "prompt_explicit": "First, a swimmer in a red cap sits at the edge of an indoor pool wrapped in a large white towel. Then, a swimmer in a red cap dives off a starting block, flying through the air above an indoor pool. Finally, a swimmer in a red cap swims underwater in an indoor pool, surrounded by bubbles.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A3_ABC",
+   "group": "A3",
+   "category": "action",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "young woman",
+   "sentences": [
+    "A young woman in a yellow sweater reads a book on a grey sofa in a living room.",
+    "A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room.",
+    "A young woman in a yellow sweater waters potted plants by a living room window."
+   ],
+   "prompt": "A young woman in a yellow sweater reads a book on a grey sofa in a living room. A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room. A young woman in a yellow sweater waters potted plants by a living room window.",
+   "prompt_explicit": "First, a young woman in a yellow sweater reads a book on a grey sofa in a living room. Then, a young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room. Finally, a young woman in a yellow sweater waters potted plants by a living room window.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A3_BCA",
+   "group": "A3",
+   "category": "action",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "young woman",
+   "sentences": [
+    "A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room.",
+    "A young woman in a yellow sweater waters potted plants by a living room window.",
+    "A young woman in a yellow sweater reads a book on a grey sofa in a living room."
+   ],
+   "prompt": "A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room. A young woman in a yellow sweater waters potted plants by a living room window. A young woman in a yellow sweater reads a book on a grey sofa in a living room.",
+   "prompt_explicit": "First, a young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room. Then, a young woman in a yellow sweater waters potted plants by a living room window. Finally, a young woman in a yellow sweater reads a book on a grey sofa in a living room.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A3_CAB",
+   "group": "A3",
+   "category": "action",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "young woman",
+   "sentences": [
+    "A young woman in a yellow sweater waters potted plants by a living room window.",
+    "A young woman in a yellow sweater reads a book on a grey sofa in a living room.",
+    "A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room."
+   ],
+   "prompt": "A young woman in a yellow sweater waters potted plants by a living room window. A young woman in a yellow sweater reads a book on a grey sofa in a living room. A young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room.",
+   "prompt_explicit": "First, a young woman in a yellow sweater waters potted plants by a living room window. Then, a young woman in a yellow sweater reads a book on a grey sofa in a living room. Finally, a young woman in a yellow sweater plays an acoustic guitar on a grey sofa in a living room.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A4_ABC",
+   "group": "A4",
+   "category": "action",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "golden retriever",
+   "sentences": [
+    "A golden retriever sleeps curled up on a rug in a sunny backyard.",
+    "A golden retriever chases a red ball across the grass in a sunny backyard.",
+    "A golden retriever drinks water from a metal bowl in a sunny backyard."
+   ],
+   "prompt": "A golden retriever sleeps curled up on a rug in a sunny backyard. A golden retriever chases a red ball across the grass in a sunny backyard. A golden retriever drinks water from a metal bowl in a sunny backyard.",
+   "prompt_explicit": "First, a golden retriever sleeps curled up on a rug in a sunny backyard. Then, a golden retriever chases a red ball across the grass in a sunny backyard. Finally, a golden retriever drinks water from a metal bowl in a sunny backyard.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A4_BCA",
+   "group": "A4",
+   "category": "action",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "golden retriever",
+   "sentences": [
+    "A golden retriever chases a red ball across the grass in a sunny backyard.",
+    "A golden retriever drinks water from a metal bowl in a sunny backyard.",
+    "A golden retriever sleeps curled up on a rug in a sunny backyard."
+   ],
+   "prompt": "A golden retriever chases a red ball across the grass in a sunny backyard. A golden retriever drinks water from a metal bowl in a sunny backyard. A golden retriever sleeps curled up on a rug in a sunny backyard.",
+   "prompt_explicit": "First, a golden retriever chases a red ball across the grass in a sunny backyard. Then, a golden retriever drinks water from a metal bowl in a sunny backyard. Finally, a golden retriever sleeps curled up on a rug in a sunny backyard.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "A4_CAB",
+   "group": "A4",
+   "category": "action",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "golden retriever",
+   "sentences": [
+    "A golden retriever drinks water from a metal bowl in a sunny backyard.",
+    "A golden retriever sleeps curled up on a rug in a sunny backyard.",
+    "A golden retriever chases a red ball across the grass in a sunny backyard."
+   ],
+   "prompt": "A golden retriever drinks water from a metal bowl in a sunny backyard. A golden retriever sleeps curled up on a rug in a sunny backyard. A golden retriever chases a red ball across the grass in a sunny backyard.",
+   "prompt_explicit": "First, a golden retriever drinks water from a metal bowl in a sunny backyard. Then, a golden retriever sleeps curled up on a rug in a sunny backyard. Finally, a golden retriever chases a red ball across the grass in a sunny backyard.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L1_ABC",
+   "group": "L1",
+   "category": "location",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "hiker",
+   "sentences": [
+    "A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves.",
+    "A hiker with a red backpack walks through a dense green rainforest with giant ferns.",
+    "A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard."
+   ],
+   "prompt": "A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves. A hiker with a red backpack walks through a dense green rainforest with giant ferns. A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard.",
+   "prompt_explicit": "First, a hiker with a red backpack walks along a sunny sandy beach next to turquoise waves. Then, a hiker with a red backpack walks through a dense green rainforest with giant ferns. Finally, a hiker with a red backpack climbs a snowy mountain ridge in a white blizzard.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L1_BCA",
+   "group": "L1",
+   "category": "location",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "hiker",
+   "sentences": [
+    "A hiker with a red backpack walks through a dense green rainforest with giant ferns.",
+    "A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard.",
+    "A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves."
+   ],
+   "prompt": "A hiker with a red backpack walks through a dense green rainforest with giant ferns. A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard. A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves.",
+   "prompt_explicit": "First, a hiker with a red backpack walks through a dense green rainforest with giant ferns. Then, a hiker with a red backpack climbs a snowy mountain ridge in a white blizzard. Finally, a hiker with a red backpack walks along a sunny sandy beach next to turquoise waves.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L1_CAB",
+   "group": "L1",
+   "category": "location",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "hiker",
+   "sentences": [
+    "A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard.",
+    "A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves.",
+    "A hiker with a red backpack walks through a dense green rainforest with giant ferns."
+   ],
+   "prompt": "A hiker with a red backpack climbs a snowy mountain ridge in a white blizzard. A hiker with a red backpack walks along a sunny sandy beach next to turquoise waves. A hiker with a red backpack walks through a dense green rainforest with giant ferns.",
+   "prompt_explicit": "First, a hiker with a red backpack climbs a snowy mountain ridge in a white blizzard. Then, a hiker with a red backpack walks along a sunny sandy beach next to turquoise waves. Finally, a hiker with a red backpack walks through a dense green rainforest with giant ferns.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L2_ABC",
+   "group": "L2",
+   "category": "location",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "red sports car",
+   "sentences": [
+    "A red sports car speeds along a desert highway between orange sand dunes.",
+    "A red sports car drives through a city street at night lit by neon signs.",
+    "A red sports car drives along a winding road through a snowy pine forest."
+   ],
+   "prompt": "A red sports car speeds along a desert highway between orange sand dunes. A red sports car drives through a city street at night lit by neon signs. A red sports car drives along a winding road through a snowy pine forest.",
+   "prompt_explicit": "First, a red sports car speeds along a desert highway between orange sand dunes. Then, a red sports car drives through a city street at night lit by neon signs. Finally, a red sports car drives along a winding road through a snowy pine forest.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L2_BCA",
+   "group": "L2",
+   "category": "location",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "red sports car",
+   "sentences": [
+    "A red sports car drives through a city street at night lit by neon signs.",
+    "A red sports car drives along a winding road through a snowy pine forest.",
+    "A red sports car speeds along a desert highway between orange sand dunes."
+   ],
+   "prompt": "A red sports car drives through a city street at night lit by neon signs. A red sports car drives along a winding road through a snowy pine forest. A red sports car speeds along a desert highway between orange sand dunes.",
+   "prompt_explicit": "First, a red sports car drives through a city street at night lit by neon signs. Then, a red sports car drives along a winding road through a snowy pine forest. Finally, a red sports car speeds along a desert highway between orange sand dunes.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L2_CAB",
+   "group": "L2",
+   "category": "location",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "red sports car",
+   "sentences": [
+    "A red sports car drives along a winding road through a snowy pine forest.",
+    "A red sports car speeds along a desert highway between orange sand dunes.",
+    "A red sports car drives through a city street at night lit by neon signs."
+   ],
+   "prompt": "A red sports car drives along a winding road through a snowy pine forest. A red sports car speeds along a desert highway between orange sand dunes. A red sports car drives through a city street at night lit by neon signs.",
+   "prompt_explicit": "First, a red sports car drives along a winding road through a snowy pine forest. Then, a red sports car speeds along a desert highway between orange sand dunes. Finally, a red sports car drives through a city street at night lit by neon signs.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L3_ABC",
+   "group": "L3",
+   "category": "location",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "cyclist",
+   "sentences": [
+    "A cyclist in a blue jersey rides past rows of colorful tulips in a flower field.",
+    "A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town.",
+    "A cyclist in a blue jersey rides along a dusty trail through a red rock canyon."
+   ],
+   "prompt": "A cyclist in a blue jersey rides past rows of colorful tulips in a flower field. A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town. A cyclist in a blue jersey rides along a dusty trail through a red rock canyon.",
+   "prompt_explicit": "First, a cyclist in a blue jersey rides past rows of colorful tulips in a flower field. Then, a cyclist in a blue jersey rides along a narrow cobblestone street in an old European town. Finally, a cyclist in a blue jersey rides along a dusty trail through a red rock canyon.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L3_BCA",
+   "group": "L3",
+   "category": "location",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "cyclist",
+   "sentences": [
+    "A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town.",
+    "A cyclist in a blue jersey rides along a dusty trail through a red rock canyon.",
+    "A cyclist in a blue jersey rides past rows of colorful tulips in a flower field."
+   ],
+   "prompt": "A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town. A cyclist in a blue jersey rides along a dusty trail through a red rock canyon. A cyclist in a blue jersey rides past rows of colorful tulips in a flower field.",
+   "prompt_explicit": "First, a cyclist in a blue jersey rides along a narrow cobblestone street in an old European town. Then, a cyclist in a blue jersey rides along a dusty trail through a red rock canyon. Finally, a cyclist in a blue jersey rides past rows of colorful tulips in a flower field.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L3_CAB",
+   "group": "L3",
+   "category": "location",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "cyclist",
+   "sentences": [
+    "A cyclist in a blue jersey rides along a dusty trail through a red rock canyon.",
+    "A cyclist in a blue jersey rides past rows of colorful tulips in a flower field.",
+    "A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town."
+   ],
+   "prompt": "A cyclist in a blue jersey rides along a dusty trail through a red rock canyon. A cyclist in a blue jersey rides past rows of colorful tulips in a flower field. A cyclist in a blue jersey rides along a narrow cobblestone street in an old European town.",
+   "prompt_explicit": "First, a cyclist in a blue jersey rides along a dusty trail through a red rock canyon. Then, a cyclist in a blue jersey rides past rows of colorful tulips in a flower field. Finally, a cyclist in a blue jersey rides along a narrow cobblestone street in an old European town.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L4_ABC",
+   "group": "L4",
+   "category": "location",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "wooden rowboat",
+   "sentences": [
+    "A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees.",
+    "A small wooden rowboat floats among white icebergs in dark arctic water.",
+    "A small wooden rowboat floats along a narrow canal between old houses in Venice."
+   ],
+   "prompt": "A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees. A small wooden rowboat floats among white icebergs in dark arctic water. A small wooden rowboat floats along a narrow canal between old houses in Venice.",
+   "prompt_explicit": "First, a small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees. Then, a small wooden rowboat floats among white icebergs in dark arctic water. Finally, a small wooden rowboat floats along a narrow canal between old houses in Venice.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L4_BCA",
+   "group": "L4",
+   "category": "location",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "wooden rowboat",
+   "sentences": [
+    "A small wooden rowboat floats among white icebergs in dark arctic water.",
+    "A small wooden rowboat floats along a narrow canal between old houses in Venice.",
+    "A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees."
+   ],
+   "prompt": "A small wooden rowboat floats among white icebergs in dark arctic water. A small wooden rowboat floats along a narrow canal between old houses in Venice. A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees.",
+   "prompt_explicit": "First, a small wooden rowboat floats among white icebergs in dark arctic water. Then, a small wooden rowboat floats along a narrow canal between old houses in Venice. Finally, a small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "L4_CAB",
+   "group": "L4",
+   "category": "location",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "cut",
+   "subject": "wooden rowboat",
+   "sentences": [
+    "A small wooden rowboat floats along a narrow canal between old houses in Venice.",
+    "A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees.",
+    "A small wooden rowboat floats among white icebergs in dark arctic water."
+   ],
+   "prompt": "A small wooden rowboat floats along a narrow canal between old houses in Venice. A small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees. A small wooden rowboat floats among white icebergs in dark arctic water.",
+   "prompt_explicit": "First, a small wooden rowboat floats along a narrow canal between old houses in Venice. Then, a small wooden rowboat floats in a clear tropical lagoon surrounded by palm trees. Finally, a small wooden rowboat floats among white icebergs in dark arctic water.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O1_ABC",
+   "group": "O1",
+   "category": "object",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "wooden table",
+   "sentences": [
+    "A single red apple sits on a wooden table in a bright kitchen.",
+    "A blue ceramic teapot sits on a wooden table in a bright kitchen.",
+    "A tall stack of old books sits on a wooden table in a bright kitchen."
+   ],
+   "prompt": "A single red apple sits on a wooden table in a bright kitchen. A blue ceramic teapot sits on a wooden table in a bright kitchen. A tall stack of old books sits on a wooden table in a bright kitchen.",
+   "prompt_explicit": "First, a single red apple sits on a wooden table in a bright kitchen. Then, a blue ceramic teapot sits on a wooden table in a bright kitchen. Finally, a tall stack of old books sits on a wooden table in a bright kitchen.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O1_BCA",
+   "group": "O1",
+   "category": "object",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "wooden table",
+   "sentences": [
+    "A blue ceramic teapot sits on a wooden table in a bright kitchen.",
+    "A tall stack of old books sits on a wooden table in a bright kitchen.",
+    "A single red apple sits on a wooden table in a bright kitchen."
+   ],
+   "prompt": "A blue ceramic teapot sits on a wooden table in a bright kitchen. A tall stack of old books sits on a wooden table in a bright kitchen. A single red apple sits on a wooden table in a bright kitchen.",
+   "prompt_explicit": "First, a blue ceramic teapot sits on a wooden table in a bright kitchen. Then, a tall stack of old books sits on a wooden table in a bright kitchen. Finally, a single red apple sits on a wooden table in a bright kitchen.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O1_CAB",
+   "group": "O1",
+   "category": "object",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "wooden table",
+   "sentences": [
+    "A tall stack of old books sits on a wooden table in a bright kitchen.",
+    "A single red apple sits on a wooden table in a bright kitchen.",
+    "A blue ceramic teapot sits on a wooden table in a bright kitchen."
+   ],
+   "prompt": "A tall stack of old books sits on a wooden table in a bright kitchen. A single red apple sits on a wooden table in a bright kitchen. A blue ceramic teapot sits on a wooden table in a bright kitchen.",
+   "prompt_explicit": "First, a tall stack of old books sits on a wooden table in a bright kitchen. Then, a single red apple sits on a wooden table in a bright kitchen. Finally, a blue ceramic teapot sits on a wooden table in a bright kitchen.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O2_ABC",
+   "group": "O2",
+   "category": "object",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "green hills",
+   "sentences": [
+    "A colorful hot air balloon drifts across a clear blue sky above green hills.",
+    "A large flock of birds flies across a clear blue sky above green hills.",
+    "A white passenger airplane flies across a clear blue sky above green hills."
+   ],
+   "prompt": "A colorful hot air balloon drifts across a clear blue sky above green hills. A large flock of birds flies across a clear blue sky above green hills. A white passenger airplane flies across a clear blue sky above green hills.",
+   "prompt_explicit": "First, a colorful hot air balloon drifts across a clear blue sky above green hills. Then, a large flock of birds flies across a clear blue sky above green hills. Finally, a white passenger airplane flies across a clear blue sky above green hills.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O2_BCA",
+   "group": "O2",
+   "category": "object",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "green hills",
+   "sentences": [
+    "A large flock of birds flies across a clear blue sky above green hills.",
+    "A white passenger airplane flies across a clear blue sky above green hills.",
+    "A colorful hot air balloon drifts across a clear blue sky above green hills."
+   ],
+   "prompt": "A large flock of birds flies across a clear blue sky above green hills. A white passenger airplane flies across a clear blue sky above green hills. A colorful hot air balloon drifts across a clear blue sky above green hills.",
+   "prompt_explicit": "First, a large flock of birds flies across a clear blue sky above green hills. Then, a white passenger airplane flies across a clear blue sky above green hills. Finally, a colorful hot air balloon drifts across a clear blue sky above green hills.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O2_CAB",
+   "group": "O2",
+   "category": "object",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "neutral",
+   "shot": "continuous",
+   "subject": "green hills",
+   "sentences": [
+    "A white passenger airplane flies across a clear blue sky above green hills.",
+    "A colorful hot air balloon drifts across a clear blue sky above green hills.",
+    "A large flock of birds flies across a clear blue sky above green hills."
+   ],
+   "prompt": "A white passenger airplane flies across a clear blue sky above green hills. A colorful hot air balloon drifts across a clear blue sky above green hills. A large flock of birds flies across a clear blue sky above green hills.",
+   "prompt_explicit": "First, a white passenger airplane flies across a clear blue sky above green hills. Then, a colorful hot air balloon drifts across a clear blue sky above green hills. Finally, a large flock of birds flies across a clear blue sky above green hills.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O3_ABC",
+   "group": "O3",
+   "category": "object",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "wooden table",
+   "sentences": [
+    "A tall white candle stands unlit on a dark wooden table in a quiet room.",
+    "A tall white candle burns with a bright flickering flame on a dark wooden table.",
+    "A puddle of melted wax with a thin trail of smoke on a dark wooden table."
+   ],
+   "prompt": "A tall white candle stands unlit on a dark wooden table in a quiet room. A tall white candle burns with a bright flickering flame on a dark wooden table. A puddle of melted wax with a thin trail of smoke on a dark wooden table.",
+   "prompt_explicit": "First, a tall white candle stands unlit on a dark wooden table in a quiet room. Then, a tall white candle burns with a bright flickering flame on a dark wooden table. Finally, a puddle of melted wax with a thin trail of smoke on a dark wooden table.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O3_BCA",
+   "group": "O3",
+   "category": "object",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "wooden table",
+   "sentences": [
+    "A tall white candle burns with a bright flickering flame on a dark wooden table.",
+    "A puddle of melted wax with a thin trail of smoke on a dark wooden table.",
+    "A tall white candle stands unlit on a dark wooden table in a quiet room."
+   ],
+   "prompt": "A tall white candle burns with a bright flickering flame on a dark wooden table. A puddle of melted wax with a thin trail of smoke on a dark wooden table. A tall white candle stands unlit on a dark wooden table in a quiet room.",
+   "prompt_explicit": "First, a tall white candle burns with a bright flickering flame on a dark wooden table. Then, a puddle of melted wax with a thin trail of smoke on a dark wooden table. Finally, a tall white candle stands unlit on a dark wooden table in a quiet room.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O3_CAB",
+   "group": "O3",
+   "category": "object",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "wooden table",
+   "sentences": [
+    "A puddle of melted wax with a thin trail of smoke on a dark wooden table.",
+    "A tall white candle stands unlit on a dark wooden table in a quiet room.",
+    "A tall white candle burns with a bright flickering flame on a dark wooden table."
+   ],
+   "prompt": "A puddle of melted wax with a thin trail of smoke on a dark wooden table. A tall white candle stands unlit on a dark wooden table in a quiet room. A tall white candle burns with a bright flickering flame on a dark wooden table.",
+   "prompt_explicit": "First, a puddle of melted wax with a thin trail of smoke on a dark wooden table. Then, a tall white candle stands unlit on a dark wooden table in a quiet room. Finally, a tall white candle burns with a bright flickering flame on a dark wooden table.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O4_ABC",
+   "group": "O4",
+   "category": "object",
+   "rotation": "ABC",
+   "events": [
+    "A",
+    "B",
+    "C"
+   ],
+   "order_type": "natural",
+   "shot": "continuous",
+   "subject": "suburban street",
+   "sentences": [
+    "A grassy lot with no buildings on a quiet suburban street under a blue sky.",
+    "A wooden house frame with scaffolding on a grassy lot on a quiet suburban street.",
+    "A finished white house with a red roof on a grassy lot on a quiet suburban street."
+   ],
+   "prompt": "A grassy lot with no buildings on a quiet suburban street under a blue sky. A wooden house frame with scaffolding on a grassy lot on a quiet suburban street. A finished white house with a red roof on a grassy lot on a quiet suburban street.",
+   "prompt_explicit": "First, a grassy lot with no buildings on a quiet suburban street under a blue sky. Then, a wooden house frame with scaffolding on a grassy lot on a quiet suburban street. Finally, a finished white house with a red roof on a grassy lot on a quiet suburban street.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O4_BCA",
+   "group": "O4",
+   "category": "object",
+   "rotation": "BCA",
+   "events": [
+    "B",
+    "C",
+    "A"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "suburban street",
+   "sentences": [
+    "A wooden house frame with scaffolding on a grassy lot on a quiet suburban street.",
+    "A finished white house with a red roof on a grassy lot on a quiet suburban street.",
+    "A grassy lot with no buildings on a quiet suburban street under a blue sky."
+   ],
+   "prompt": "A wooden house frame with scaffolding on a grassy lot on a quiet suburban street. A finished white house with a red roof on a grassy lot on a quiet suburban street. A grassy lot with no buildings on a quiet suburban street under a blue sky.",
+   "prompt_explicit": "First, a wooden house frame with scaffolding on a grassy lot on a quiet suburban street. Then, a finished white house with a red roof on a grassy lot on a quiet suburban street. Finally, a grassy lot with no buildings on a quiet suburban street under a blue sky.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "O4_CAB",
+   "group": "O4",
+   "category": "object",
+   "rotation": "CAB",
+   "events": [
+    "C",
+    "A",
+    "B"
+   ],
+   "order_type": "counter",
+   "shot": "continuous",
+   "subject": "suburban street",
+   "sentences": [
+    "A finished white house with a red roof on a grassy lot on a quiet suburban street.",
+    "A grassy lot with no buildings on a quiet suburban street under a blue sky.",
+    "A wooden house frame with scaffolding on a grassy lot on a quiet suburban street."
+   ],
+   "prompt": "A finished white house with a red roof on a grassy lot on a quiet suburban street. A grassy lot with no buildings on a quiet suburban street under a blue sky. A wooden house frame with scaffolding on a grassy lot on a quiet suburban street.",
+   "prompt_explicit": "First, a finished white house with a red roof on a grassy lot on a quiet suburban street. Then, a grassy lot with no buildings on a quiet suburban street under a blue sky. Finally, a wooden house frame with scaffolding on a grassy lot on a quiet suburban street.",
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      }
+     ]
+    },
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        20
+       ],
+       "pixel": [
+        37,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

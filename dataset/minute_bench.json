@@ -1,0 +1,1959 @@
+{
+ "prompts": [
+  {
+   "id": "minute_lighthouse",
+   "source": "ours",
+   "category": "consistency",
+   "subject": "elderly person with glasses",
+   "pattern": "two characters, recurring places",
+   "entities": [
+    {
+     "name": "keeper",
+     "description": "an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater"
+    },
+    {
+     "name": "girl",
+     "description": "a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots"
+    }
+   ],
+   "sentences": [
+    "Wide shot at dawn of a red-and-white striped lighthouse on a rocky coast, waves breaking softly on the rocks below.",
+    "Close-up of an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater waking up in a small wooden bedroom, putting on her glasses.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater climbs the spiral iron staircase inside a red-and-white striped lighthouse on a rocky coast, one hand on the railing.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater polishes the huge glass lens at the top of a red-and-white striped lighthouse on a rocky coast, morning light flaring through it.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots runs along a cliff path toward a red-and-white striped lighthouse on a rocky coast, a basket swinging in her hand.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater opens the wooden door of a red-and-white striped lighthouse on a rocky coast and hugs a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots.",
+    "In a cozy wooden kitchen, an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater pours tea while a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots unpacks bread from the basket.",
+    "Close-up of a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots laughing at the kitchen table, crumbs on her cheek.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater shows a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots an old logbook full of ink drawings of ships.",
+    "Close-up of a yellowed logbook page with a hand-drawn sailboat named Wren.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots and an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater walk down to a small harbor with fishing boats bobbing in the water.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater points at a little blue sailboat named Wren tied to the wooden pier.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots sits in the blue sailboat Wren as an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater unties the rope from the pier.",
+    "Wide shot of the blue sailboat Wren gliding across calm turquoise water, a red-and-white striped lighthouse on a rocky coast in the distance.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots trails her hand in the water over the side of the sailboat, smiling.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater looks up at dark clouds gathering on the horizon, her expression turning serious.",
+    "The wind picks up and the sail of the blue sailboat Wren snaps tight as waves grow.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater steers the blue sailboat Wren back toward the harbor through choppy water.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots grips the edge of the boat, rain starting to fall on her yellow raincoat.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater and a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots tie the blue sailboat Wren to the pier as rain pours down.",
+    "Night falls and a storm lashes a red-and-white striped lighthouse on a rocky coast, huge waves crashing over the rocks.",
+    "Inside a red-and-white striped lighthouse on a rocky coast, an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater lights an oil lamp while thunder rumbles outside.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots watches lightning through a round window of a red-and-white striped lighthouse on a rocky coast, wrapped in a blanket.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater climbs the spiral iron staircase with the oil lamp, shadows dancing on the walls.",
+    "The great lens at the top of a red-and-white striped lighthouse on a rocky coast begins to rotate, its beam sweeping across the stormy sea.",
+    "Far out at sea, a small fishing boat rocks in the storm, turning toward the lighthouse beam.",
+    "A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots and an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater stand together at the window, watching the fishing boat reach the harbor safely.",
+    "Morning after the storm, calm sea and soft pink sky behind a red-and-white striped lighthouse on a rocky coast.",
+    "An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater draws the blue sailboat Wren into the logbook while a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots watches over her shoulder.",
+    "Wide shot of a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots and an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater sitting on the rocks below a red-and-white striped lighthouse on a rocky coast, looking out at the sunrise."
+   ],
+   "prompt": "Wide shot at dawn of a red-and-white striped lighthouse on a rocky coast, waves breaking softly on the rocks below. Close-up of an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater waking up in a small wooden bedroom, putting on her glasses. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater climbs the spiral iron staircase inside a red-and-white striped lighthouse on a rocky coast, one hand on the railing. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater polishes the huge glass lens at the top of a red-and-white striped lighthouse on a rocky coast, morning light flaring through it. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots runs along a cliff path toward a red-and-white striped lighthouse on a rocky coast, a basket swinging in her hand. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater opens the wooden door of a red-and-white striped lighthouse on a rocky coast and hugs a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots. In a cozy wooden kitchen, an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater pours tea while a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots unpacks bread from the basket. Close-up of a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots laughing at the kitchen table, crumbs on her cheek. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater shows a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots an old logbook full of ink drawings of ships. Close-up of a yellowed logbook page with a hand-drawn sailboat named Wren. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots and an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater walk down to a small harbor with fishing boats bobbing in the water. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater points at a little blue sailboat named Wren tied to the wooden pier. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots sits in the blue sailboat Wren as an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater unties the rope from the pier. Wide shot of the blue sailboat Wren gliding across calm turquoise water, a red-and-white striped lighthouse on a rocky coast in the distance. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots trails her hand in the water over the side of the sailboat, smiling. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater looks up at dark clouds gathering on the horizon, her expression turning serious. The wind picks up and the sail of the blue sailboat Wren snaps tight as waves grow. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater steers the blue sailboat Wren back toward the harbor through choppy water. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots grips the edge of the boat, rain starting to fall on her yellow raincoat. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater and a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots tie the blue sailboat Wren to the pier as rain pours down. Night falls and a storm lashes a red-and-white striped lighthouse on a rocky coast, huge waves crashing over the rocks. Inside a red-and-white striped lighthouse on a rocky coast, an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater lights an oil lamp while thunder rumbles outside. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots watches lightning through a round window of a red-and-white striped lighthouse on a rocky coast, wrapped in a blanket. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater climbs the spiral iron staircase with the oil lamp, shadows dancing on the walls. The great lens at the top of a red-and-white striped lighthouse on a rocky coast begins to rotate, its beam sweeping across the stormy sea. Far out at sea, a small fishing boat rocks in the storm, turning toward the lighthouse beam. A young girl with curly red hair in two braids, a yellow raincoat and green rubber boots and an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater stand together at the window, watching the fishing boat reach the harbor safely. Morning after the storm, calm sea and soft pink sky behind a red-and-white striped lighthouse on a rocky coast. An elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater draws the blue sailboat Wren into the logbook while a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots watches over her shoulder. Wide shot of a young girl with curly red hair in two braids, a yellow raincoat and green rubber boots and an elderly lighthouse keeper with short silver hair, round glasses and a navy wool sweater sitting on the rocks below a red-and-white striped lighthouse on a rocky coast, looking out at the sunrise.",
+   "shots": 30,
+   "lengths": [
+    12,
+    12,
+    13,
+    12,
+    11,
+    13,
+    15,
+    14,
+    11,
+    9,
+    11,
+    12,
+    8,
+    12,
+    10,
+    11,
+    11,
+    11,
+    13,
+    14,
+    12,
+    15,
+    11,
+    13,
+    14,
+    12,
+    11,
+    10,
+    11,
+    12
+   ],
+   "frames": 1421,
+   "segments": {
+    "1421": {
+     "latent_frames": 356,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        12
+       ],
+       "pixel": [
+        0,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        24
+       ],
+       "pixel": [
+        45,
+        93
+       ]
+      },
+      {
+       "latent": [
+        24,
+        37
+       ],
+       "pixel": [
+        93,
+        145
+       ]
+      },
+      {
+       "latent": [
+        37,
+        49
+       ],
+       "pixel": [
+        145,
+        193
+       ]
+      },
+      {
+       "latent": [
+        49,
+        60
+       ],
+       "pixel": [
+        193,
+        237
+       ]
+      },
+      {
+       "latent": [
+        60,
+        73
+       ],
+       "pixel": [
+        237,
+        289
+       ]
+      },
+      {
+       "latent": [
+        73,
+        88
+       ],
+       "pixel": [
+        289,
+        349
+       ]
+      },
+      {
+       "latent": [
+        88,
+        102
+       ],
+       "pixel": [
+        349,
+        405
+       ]
+      },
+      {
+       "latent": [
+        102,
+        113
+       ],
+       "pixel": [
+        405,
+        449
+       ]
+      },
+      {
+       "latent": [
+        113,
+        122
+       ],
+       "pixel": [
+        449,
+        485
+       ]
+      },
+      {
+       "latent": [
+        122,
+        133
+       ],
+       "pixel": [
+        485,
+        529
+       ]
+      },
+      {
+       "latent": [
+        133,
+        145
+       ],
+       "pixel": [
+        529,
+        577
+       ]
+      },
+      {
+       "latent": [
+        145,
+        153
+       ],
+       "pixel": [
+        577,
+        609
+       ]
+      },
+      {
+       "latent": [
+        153,
+        165
+       ],
+       "pixel": [
+        609,
+        657
+       ]
+      },
+      {
+       "latent": [
+        165,
+        175
+       ],
+       "pixel": [
+        657,
+        697
+       ]
+      },
+      {
+       "latent": [
+        175,
+        186
+       ],
+       "pixel": [
+        697,
+        741
+       ]
+      },
+      {
+       "latent": [
+        186,
+        197
+       ],
+       "pixel": [
+        741,
+        785
+       ]
+      },
+      {
+       "latent": [
+        197,
+        208
+       ],
+       "pixel": [
+        785,
+        829
+       ]
+      },
+      {
+       "latent": [
+        208,
+        221
+       ],
+       "pixel": [
+        829,
+        881
+       ]
+      },
+      {
+       "latent": [
+        221,
+        235
+       ],
+       "pixel": [
+        881,
+        937
+       ]
+      },
+      {
+       "latent": [
+        235,
+        247
+       ],
+       "pixel": [
+        937,
+        985
+       ]
+      },
+      {
+       "latent": [
+        247,
+        262
+       ],
+       "pixel": [
+        985,
+        1045
+       ]
+      },
+      {
+       "latent": [
+        262,
+        273
+       ],
+       "pixel": [
+        1045,
+        1089
+       ]
+      },
+      {
+       "latent": [
+        273,
+        286
+       ],
+       "pixel": [
+        1089,
+        1141
+       ]
+      },
+      {
+       "latent": [
+        286,
+        300
+       ],
+       "pixel": [
+        1141,
+        1197
+       ]
+      },
+      {
+       "latent": [
+        300,
+        312
+       ],
+       "pixel": [
+        1197,
+        1245
+       ]
+      },
+      {
+       "latent": [
+        312,
+        323
+       ],
+       "pixel": [
+        1245,
+        1289
+       ]
+      },
+      {
+       "latent": [
+        323,
+        333
+       ],
+       "pixel": [
+        1289,
+        1329
+       ]
+      },
+      {
+       "latent": [
+        333,
+        344
+       ],
+       "pixel": [
+        1329,
+        1373
+       ]
+      },
+      {
+       "latent": [
+        344,
+        356
+       ],
+       "pixel": [
+        1373,
+        1421
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "minute_night_market",
+   "source": "ours",
+   "category": "consistency",
+   "subject": "chef with a shaved head",
+   "pattern": "two characters, one place, day turns",
+   "entities": [
+    {
+     "name": "chef",
+     "description": "a middle-aged street-food chef with a shaved head, a black headband and a white apron"
+    },
+    {
+     "name": "boy",
+     "description": "a teenage apprentice with messy black hair, a red hoodie and a green apron"
+    }
+   ],
+   "sentences": [
+    "Wide shot at dusk of a crowded night market street, a small noodle stall with a striped orange awning and paper lanterns glowing among other stalls.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron lifts the striped orange awning of a small noodle stall with a striped orange awning and paper lanterns and hangs the paper lanterns.",
+    "A teenage apprentice with messy black hair, a red hoodie and a green apron arrives on a bicycle with crates of vegetables strapped to the back.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron hands a teenage apprentice with messy black hair, a red hoodie and a green apron a knife and points at a pile of green onions.",
+    "Close-up of hands of a teenage apprentice with messy black hair, a red hoodie and a green apron clumsily chopping green onions on a wooden board.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron laughs and shows a teenage apprentice with messy black hair, a red hoodie and a green apron how to hold the knife properly.",
+    "Close-up of a large wok on a roaring flame, noodles tossed high into the air.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron flips noodles in the wok with a single swift motion, steam rising around him.",
+    "Customers line up in front of a small noodle stall with a striped orange awning and paper lanterns, holding paper tickets.",
+    "A teenage apprentice with messy black hair, a red hoodie and a green apron hands a steaming bowl of noodles to a smiling old woman at a small noodle stall with a striped orange awning and paper lanterns.",
+    "Close-up of a bowl of noodles topped with a soft egg and green onions.",
+    "A sudden gust of wind blows over the paper lanterns of a small noodle stall with a striped orange awning and paper lanterns and one catches fire.",
+    "A teenage apprentice with messy black hair, a red hoodie and a green apron grabs a bucket of water and throws it on the burning lantern.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron pats a teenage apprentice with messy black hair, a red hoodie and a green apron on the shoulder, both of them soaked and laughing.",
+    "Rain begins to fall over the night market and people open umbrellas.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron and a teenage apprentice with messy black hair, a red hoodie and a green apron pull the striped orange awning lower as rain drums on it.",
+    "Inside a small noodle stall with a striped orange awning and paper lanterns, a teenage apprentice with messy black hair, a red hoodie and a green apron writes a new menu on a chalkboard in neat letters.",
+    "Close-up of the chalkboard menu reading Midnight Noodles with a drawn bowl.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron tastes a spoonful of broth that a teenage apprentice with messy black hair, a red hoodie and a green apron made, his eyebrows rising in surprise.",
+    "A teenage apprentice with messy black hair, a red hoodie and a green apron beams with pride, steam from the broth pot curling around him.",
+    "Late at night, the rain stops and the market street shines with reflected neon.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron counts coins in a tin box under a paper lantern of a small noodle stall with a striped orange awning and paper lanterns.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron gives a teenage apprentice with messy black hair, a red hoodie and a green apron a small brass key on a red string.",
+    "Close-up of the brass key resting in the palm of a teenage apprentice with messy black hair, a red hoodie and a green apron.",
+    "At dawn, a teenage apprentice with messy black hair, a red hoodie and a green apron alone lifts the striped orange awning of a small noodle stall with a striped orange awning and paper lanterns with the brass key around his neck.",
+    "A middle-aged street-food chef with a shaved head, a black headband and a white apron watches from across the street with a cup of tea, smiling at a small noodle stall with a striped orange awning and paper lanterns."
+   ],
+   "prompt": "Wide shot at dusk of a crowded night market street, a small noodle stall with a striped orange awning and paper lanterns glowing among other stalls. A middle-aged street-food chef with a shaved head, a black headband and a white apron lifts the striped orange awning of a small noodle stall with a striped orange awning and paper lanterns and hangs the paper lanterns. A teenage apprentice with messy black hair, a red hoodie and a green apron arrives on a bicycle with crates of vegetables strapped to the back. A middle-aged street-food chef with a shaved head, a black headband and a white apron hands a teenage apprentice with messy black hair, a red hoodie and a green apron a knife and points at a pile of green onions. Close-up of hands of a teenage apprentice with messy black hair, a red hoodie and a green apron clumsily chopping green onions on a wooden board. A middle-aged street-food chef with a shaved head, a black headband and a white apron laughs and shows a teenage apprentice with messy black hair, a red hoodie and a green apron how to hold the knife properly. Close-up of a large wok on a roaring flame, noodles tossed high into the air. A middle-aged street-food chef with a shaved head, a black headband and a white apron flips noodles in the wok with a single swift motion, steam rising around him. Customers line up in front of a small noodle stall with a striped orange awning and paper lanterns, holding paper tickets. A teenage apprentice with messy black hair, a red hoodie and a green apron hands a steaming bowl of noodles to a smiling old woman at a small noodle stall with a striped orange awning and paper lanterns. Close-up of a bowl of noodles topped with a soft egg and green onions. A sudden gust of wind blows over the paper lanterns of a small noodle stall with a striped orange awning and paper lanterns and one catches fire. A teenage apprentice with messy black hair, a red hoodie and a green apron grabs a bucket of water and throws it on the burning lantern. A middle-aged street-food chef with a shaved head, a black headband and a white apron pats a teenage apprentice with messy black hair, a red hoodie and a green apron on the shoulder, both of them soaked and laughing. Rain begins to fall over the night market and people open umbrellas. A middle-aged street-food chef with a shaved head, a black headband and a white apron and a teenage apprentice with messy black hair, a red hoodie and a green apron pull the striped orange awning lower as rain drums on it. Inside a small noodle stall with a striped orange awning and paper lanterns, a teenage apprentice with messy black hair, a red hoodie and a green apron writes a new menu on a chalkboard in neat letters. Close-up of the chalkboard menu reading Midnight Noodles with a drawn bowl. A middle-aged street-food chef with a shaved head, a black headband and a white apron tastes a spoonful of broth that a teenage apprentice with messy black hair, a red hoodie and a green apron made, his eyebrows rising in surprise. A teenage apprentice with messy black hair, a red hoodie and a green apron beams with pride, steam from the broth pot curling around him. Late at night, the rain stops and the market street shines with reflected neon. A middle-aged street-food chef with a shaved head, a black headband and a white apron counts coins in a tin box under a paper lantern of a small noodle stall with a striped orange awning and paper lanterns. A middle-aged street-food chef with a shaved head, a black headband and a white apron gives a teenage apprentice with messy black hair, a red hoodie and a green apron a small brass key on a red string. Close-up of the brass key resting in the palm of a teenage apprentice with messy black hair, a red hoodie and a green apron. At dawn, a teenage apprentice with messy black hair, a red hoodie and a green apron alone lifts the striped orange awning of a small noodle stall with a striped orange awning and paper lanterns with the brass key around his neck. A middle-aged street-food chef with a shaved head, a black headband and a white apron watches from across the street with a cup of tea, smiling at a small noodle stall with a striped orange awning and paper lanterns.",
+   "shots": 26,
+   "lengths": [
+    15,
+    15,
+    15,
+    11,
+    16,
+    15,
+    13,
+    15,
+    15,
+    14,
+    14,
+    15,
+    12,
+    14,
+    13,
+    15,
+    14,
+    13,
+    12,
+    13,
+    14,
+    13,
+    16,
+    16,
+    8,
+    10
+   ],
+   "frames": 1421,
+   "segments": {
+    "1421": {
+     "latent_frames": 356,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        15
+       ],
+       "pixel": [
+        0,
+        57
+       ]
+      },
+      {
+       "latent": [
+        15,
+        30
+       ],
+       "pixel": [
+        57,
+        117
+       ]
+      },
+      {
+       "latent": [
+        30,
+        45
+       ],
+       "pixel": [
+        117,
+        177
+       ]
+      },
+      {
+       "latent": [
+        45,
+        56
+       ],
+       "pixel": [
+        177,
+        221
+       ]
+      },
+      {
+       "latent": [
+        56,
+        72
+       ],
+       "pixel": [
+        221,
+        285
+       ]
+      },
+      {
+       "latent": [
+        72,
+        87
+       ],
+       "pixel": [
+        285,
+        345
+       ]
+      },
+      {
+       "latent": [
+        87,
+        100
+       ],
+       "pixel": [
+        345,
+        397
+       ]
+      },
+      {
+       "latent": [
+        100,
+        115
+       ],
+       "pixel": [
+        397,
+        457
+       ]
+      },
+      {
+       "latent": [
+        115,
+        130
+       ],
+       "pixel": [
+        457,
+        517
+       ]
+      },
+      {
+       "latent": [
+        130,
+        144
+       ],
+       "pixel": [
+        517,
+        573
+       ]
+      },
+      {
+       "latent": [
+        144,
+        158
+       ],
+       "pixel": [
+        573,
+        629
+       ]
+      },
+      {
+       "latent": [
+        158,
+        173
+       ],
+       "pixel": [
+        629,
+        689
+       ]
+      },
+      {
+       "latent": [
+        173,
+        185
+       ],
+       "pixel": [
+        689,
+        737
+       ]
+      },
+      {
+       "latent": [
+        185,
+        199
+       ],
+       "pixel": [
+        737,
+        793
+       ]
+      },
+      {
+       "latent": [
+        199,
+        212
+       ],
+       "pixel": [
+        793,
+        845
+       ]
+      },
+      {
+       "latent": [
+        212,
+        227
+       ],
+       "pixel": [
+        845,
+        905
+       ]
+      },
+      {
+       "latent": [
+        227,
+        241
+       ],
+       "pixel": [
+        905,
+        961
+       ]
+      },
+      {
+       "latent": [
+        241,
+        254
+       ],
+       "pixel": [
+        961,
+        1013
+       ]
+      },
+      {
+       "latent": [
+        254,
+        266
+       ],
+       "pixel": [
+        1013,
+        1061
+       ]
+      },
+      {
+       "latent": [
+        266,
+        279
+       ],
+       "pixel": [
+        1061,
+        1113
+       ]
+      },
+      {
+       "latent": [
+        279,
+        293
+       ],
+       "pixel": [
+        1113,
+        1169
+       ]
+      },
+      {
+       "latent": [
+        293,
+        306
+       ],
+       "pixel": [
+        1169,
+        1221
+       ]
+      },
+      {
+       "latent": [
+        306,
+        322
+       ],
+       "pixel": [
+        1221,
+        1285
+       ]
+      },
+      {
+       "latent": [
+        322,
+        338
+       ],
+       "pixel": [
+        1285,
+        1349
+       ]
+      },
+      {
+       "latent": [
+        338,
+        346
+       ],
+       "pixel": [
+        1349,
+        1381
+       ]
+      },
+      {
+       "latent": [
+        346,
+        356
+       ],
+       "pixel": [
+        1381,
+        1421
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "minute_mars",
+   "source": "ours",
+   "category": "consistency",
+   "subject": "astronaut",
+   "pattern": "character and companion, one place",
+   "entities": [
+    {
+     "name": "astronaut",
+     "description": "a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor"
+    },
+    {
+     "name": "robot",
+     "description": "a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel"
+    }
+   ],
+   "sentences": [
+    "Wide shot of a white dome-shaped habitat on red Martian sand at sunrise, a pale blue sun rising over red hills.",
+    "Inside a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor without her helmet drinks coffee by a round window.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor puts on her helmet, the gold-tinted visor sliding down.",
+    "The airlock door of a white dome-shaped habitat on red Martian sand opens and red dust swirls in.",
+    "A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel rolls out of the airlock, its blue camera eye blinking.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor walks across red Martian sand, a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel following behind her.",
+    "Close-up of boot prints of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor pressed into the red sand.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor kneels and collects a rock sample with a small scoop.",
+    "A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel scans the rock sample with a blue light beam.",
+    "Wide shot of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel climbing a rocky ridge, a white dome-shaped habitat on red Martian sand small in the distance.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor looks through binoculars toward a canyon on the horizon.",
+    "A huge red dust storm appears on the horizon, rolling toward them.",
+    "A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel spins its camera eye toward the storm and beeps urgently.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor runs back down the ridge, a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel racing beside her.",
+    "Dust engulfs a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor, her helmet light cutting through the red haze.",
+    "A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel stalls in the sand, its wheels spinning helplessly.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor turns back and lifts a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel into her arms.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor trudges through the storm carrying a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel, barely visible.",
+    "The glowing airlock of a white dome-shaped habitat on red Martian sand appears through the swirling dust.",
+    "The airlock door of a white dome-shaped habitat on red Martian sand closes behind a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel.",
+    "Inside a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor removes her helmet, breathing hard, her face streaked with sweat.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor brushes red dust off the solar panel of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel with a soft brush.",
+    "Close-up of the blue camera eye of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel flickering back to life.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor smiles and taps the top of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel affectionately.",
+    "Night on Mars, the storm passing, two small moons visible above a white dome-shaped habitat on red Martian sand.",
+    "Inside a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor records a video log at a console with a blinking red light.",
+    "Close-up of a screen showing a photo of Earth pinned beside the console.",
+    "A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel rolls over and nudges the leg of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor falls asleep in a chair while a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel watches beside her.",
+    "Morning, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel step out of a white dome-shaped habitat on red Martian sand into clear pink sky.",
+    "A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor plants a small flag next to the rock sample site.",
+    "A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel takes a photo of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor standing beside the flag.",
+    "Close-up of the photo on the screen of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel showing a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor waving.",
+    "Wide shot of a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel under the calm Martian sky."
+   ],
+   "prompt": "Wide shot of a white dome-shaped habitat on red Martian sand at sunrise, a pale blue sun rising over red hills. Inside a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor without her helmet drinks coffee by a round window. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor puts on her helmet, the gold-tinted visor sliding down. The airlock door of a white dome-shaped habitat on red Martian sand opens and red dust swirls in. A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel rolls out of the airlock, its blue camera eye blinking. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor walks across red Martian sand, a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel following behind her. Close-up of boot prints of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor pressed into the red sand. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor kneels and collects a rock sample with a small scoop. A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel scans the rock sample with a blue light beam. Wide shot of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel climbing a rocky ridge, a white dome-shaped habitat on red Martian sand small in the distance. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor looks through binoculars toward a canyon on the horizon. A huge red dust storm appears on the horizon, rolling toward them. A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel spins its camera eye toward the storm and beeps urgently. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor runs back down the ridge, a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel racing beside her. Dust engulfs a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor, her helmet light cutting through the red haze. A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel stalls in the sand, its wheels spinning helplessly. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor turns back and lifts a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel into her arms. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor trudges through the storm carrying a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel, barely visible. The glowing airlock of a white dome-shaped habitat on red Martian sand appears through the swirling dust. The airlock door of a white dome-shaped habitat on red Martian sand closes behind a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel. Inside a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor removes her helmet, breathing hard, her face streaked with sweat. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor brushes red dust off the solar panel of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel with a soft brush. Close-up of the blue camera eye of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel flickering back to life. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor smiles and taps the top of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel affectionately. Night on Mars, the storm passing, two small moons visible above a white dome-shaped habitat on red Martian sand. Inside a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor records a video log at a console with a blinking red light. Close-up of a screen showing a photo of Earth pinned beside the console. A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel rolls over and nudges the leg of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor falls asleep in a chair while a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel watches beside her. Morning, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel step out of a white dome-shaped habitat on red Martian sand into clear pink sky. A female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor plants a small flag next to the rock sample site. A small four-wheeled rover robot with a round blue camera eye and a dusty solar panel takes a photo of a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor standing beside the flag. Close-up of the photo on the screen of a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel showing a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor waving. Wide shot of a white dome-shaped habitat on red Martian sand, a female astronaut in a white spacesuit with orange shoulder stripes and a gold-tinted visor and a small four-wheeled rover robot with a round blue camera eye and a dusty solar panel under the calm Martian sky.",
+   "shots": 34,
+   "lengths": [
+    11,
+    9,
+    10,
+    7,
+    14,
+    13,
+    10,
+    12,
+    11,
+    9,
+    12,
+    10,
+    10,
+    9,
+    11,
+    10,
+    11,
+    9,
+    11,
+    9,
+    12,
+    11,
+    11,
+    11,
+    8,
+    12,
+    14,
+    7,
+    7,
+    7,
+    12,
+    11,
+    13,
+    12
+   ],
+   "frames": 1421,
+   "segments": {
+    "1421": {
+     "latent_frames": 356,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        11
+       ],
+       "pixel": [
+        0,
+        41
+       ]
+      },
+      {
+       "latent": [
+        11,
+        20
+       ],
+       "pixel": [
+        41,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        30
+       ],
+       "pixel": [
+        77,
+        117
+       ]
+      },
+      {
+       "latent": [
+        30,
+        37
+       ],
+       "pixel": [
+        117,
+        145
+       ]
+      },
+      {
+       "latent": [
+        37,
+        51
+       ],
+       "pixel": [
+        145,
+        201
+       ]
+      },
+      {
+       "latent": [
+        51,
+        64
+       ],
+       "pixel": [
+        201,
+        253
+       ]
+      },
+      {
+       "latent": [
+        64,
+        74
+       ],
+       "pixel": [
+        253,
+        293
+       ]
+      },
+      {
+       "latent": [
+        74,
+        86
+       ],
+       "pixel": [
+        293,
+        341
+       ]
+      },
+      {
+       "latent": [
+        86,
+        97
+       ],
+       "pixel": [
+        341,
+        385
+       ]
+      },
+      {
+       "latent": [
+        97,
+        106
+       ],
+       "pixel": [
+        385,
+        421
+       ]
+      },
+      {
+       "latent": [
+        106,
+        118
+       ],
+       "pixel": [
+        421,
+        469
+       ]
+      },
+      {
+       "latent": [
+        118,
+        128
+       ],
+       "pixel": [
+        469,
+        509
+       ]
+      },
+      {
+       "latent": [
+        128,
+        138
+       ],
+       "pixel": [
+        509,
+        549
+       ]
+      },
+      {
+       "latent": [
+        138,
+        147
+       ],
+       "pixel": [
+        549,
+        585
+       ]
+      },
+      {
+       "latent": [
+        147,
+        158
+       ],
+       "pixel": [
+        585,
+        629
+       ]
+      },
+      {
+       "latent": [
+        158,
+        168
+       ],
+       "pixel": [
+        629,
+        669
+       ]
+      },
+      {
+       "latent": [
+        168,
+        179
+       ],
+       "pixel": [
+        669,
+        713
+       ]
+      },
+      {
+       "latent": [
+        179,
+        188
+       ],
+       "pixel": [
+        713,
+        749
+       ]
+      },
+      {
+       "latent": [
+        188,
+        199
+       ],
+       "pixel": [
+        749,
+        793
+       ]
+      },
+      {
+       "latent": [
+        199,
+        208
+       ],
+       "pixel": [
+        793,
+        829
+       ]
+      },
+      {
+       "latent": [
+        208,
+        220
+       ],
+       "pixel": [
+        829,
+        877
+       ]
+      },
+      {
+       "latent": [
+        220,
+        231
+       ],
+       "pixel": [
+        877,
+        921
+       ]
+      },
+      {
+       "latent": [
+        231,
+        242
+       ],
+       "pixel": [
+        921,
+        965
+       ]
+      },
+      {
+       "latent": [
+        242,
+        253
+       ],
+       "pixel": [
+        965,
+        1009
+       ]
+      },
+      {
+       "latent": [
+        253,
+        261
+       ],
+       "pixel": [
+        1009,
+        1041
+       ]
+      },
+      {
+       "latent": [
+        261,
+        273
+       ],
+       "pixel": [
+        1041,
+        1089
+       ]
+      },
+      {
+       "latent": [
+        273,
+        287
+       ],
+       "pixel": [
+        1089,
+        1145
+       ]
+      },
+      {
+       "latent": [
+        287,
+        294
+       ],
+       "pixel": [
+        1145,
+        1173
+       ]
+      },
+      {
+       "latent": [
+        294,
+        301
+       ],
+       "pixel": [
+        1173,
+        1201
+       ]
+      },
+      {
+       "latent": [
+        301,
+        308
+       ],
+       "pixel": [
+        1201,
+        1229
+       ]
+      },
+      {
+       "latent": [
+        308,
+        320
+       ],
+       "pixel": [
+        1229,
+        1277
+       ]
+      },
+      {
+       "latent": [
+        320,
+        331
+       ],
+       "pixel": [
+        1277,
+        1321
+       ]
+      },
+      {
+       "latent": [
+        331,
+        344
+       ],
+       "pixel": [
+        1321,
+        1373
+       ]
+      },
+      {
+       "latent": [
+        344,
+        356
+       ],
+       "pixel": [
+        1373,
+        1421
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "minute_detective",
+   "source": "ours",
+   "category": "consistency",
+   "subject": "man in a trench coat",
+   "pattern": "two characters, recurring bar, a third person",
+   "entities": [
+    {
+     "name": "detective",
+     "description": "a tall detective in a gray trench coat and a black fedora with a thin mustache"
+    },
+    {
+     "name": "informant",
+     "description": "a young informant with a short blond bob, a red leather jacket and silver hoop earrings"
+    }
+   ],
+   "sentences": [
+    "Wide shot of a rainy city street at night, neon signs reflecting on wet pavement.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache stands under a streetlight, rain dripping from the brim of his hat.",
+    "Close-up of a tall detective in a gray trench coat and a black fedora with a thin mustache reading a crumpled note with an address written on it.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache pushes open the door of a dim jazz bar with green lamps and a long wooden counter, a saxophone playing inside.",
+    "A young informant with a short blond bob, a red leather jacket and silver hoop earrings sits alone at the long wooden counter of a dim jazz bar with green lamps and a long wooden counter, stirring a drink.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache sits down next to a young informant with a short blond bob, a red leather jacket and silver hoop earrings, both looking straight ahead.",
+    "Close-up of a young informant with a short blond bob, a red leather jacket and silver hoop earrings sliding a small photograph across the counter.",
+    "Close-up of the photograph showing a man in a white suit beside a black car.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache pockets the photograph and leaves money on the counter of a dim jazz bar with green lamps and a long wooden counter.",
+    "A young informant with a short blond bob, a red leather jacket and silver hoop earrings glances nervously toward the door of a dim jazz bar with green lamps and a long wooden counter.",
+    "A man in a white suit steps out of a black car in the rain outside.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache watches the man in the white suit through the rain-streaked window of a dim jazz bar with green lamps and a long wooden counter.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache follows the man in the white suit down a narrow alley.",
+    "The man in the white suit disappears through a metal door in the alley.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache picks the lock of the metal door with a thin wire.",
+    "Inside a dusty warehouse, a tall detective in a gray trench coat and a black fedora with a thin mustache shines a flashlight across stacked crates.",
+    "Close-up of a crate stamped with a red star, a tall detective in a gray trench coat and a black fedora with a thin mustache prying it open.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache pulls a stack of old documents from the crate, his eyes narrowing.",
+    "Footsteps echo and a tall detective in a gray trench coat and a black fedora with a thin mustache hides behind the crates, switching off the flashlight.",
+    "A young informant with a short blond bob, a red leather jacket and silver hoop earrings enters the warehouse, looking around in the dark.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache steps out and grabs the arm of a young informant with a short blond bob, a red leather jacket and silver hoop earrings, surprised to see her.",
+    "A young informant with a short blond bob, a red leather jacket and silver hoop earrings whispers urgently to a tall detective in a gray trench coat and a black fedora with a thin mustache, pointing toward a back exit.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache and a young informant with a short blond bob, a red leather jacket and silver hoop earrings run out of the warehouse into the rain.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache and a young informant with a short blond bob, a red leather jacket and silver hoop earrings hide in a doorway as the black car speeds past.",
+    "Back at a dim jazz bar with green lamps and a long wooden counter, a tall detective in a gray trench coat and a black fedora with a thin mustache spreads the documents on a corner table under a green lamp.",
+    "Close-up of a young informant with a short blond bob, a red leather jacket and silver hoop earrings tracing a name on the documents with her finger.",
+    "A tall detective in a gray trench coat and a black fedora with a thin mustache lights a cigarette and stares at the documents, thinking.",
+    "Dawn breaks over the wet city as a tall detective in a gray trench coat and a black fedora with a thin mustache and a young informant with a short blond bob, a red leather jacket and silver hoop earrings walk away together down the empty street."
+   ],
+   "prompt": "Wide shot of a rainy city street at night, neon signs reflecting on wet pavement. A tall detective in a gray trench coat and a black fedora with a thin mustache stands under a streetlight, rain dripping from the brim of his hat. Close-up of a tall detective in a gray trench coat and a black fedora with a thin mustache reading a crumpled note with an address written on it. A tall detective in a gray trench coat and a black fedora with a thin mustache pushes open the door of a dim jazz bar with green lamps and a long wooden counter, a saxophone playing inside. A young informant with a short blond bob, a red leather jacket and silver hoop earrings sits alone at the long wooden counter of a dim jazz bar with green lamps and a long wooden counter, stirring a drink. A tall detective in a gray trench coat and a black fedora with a thin mustache sits down next to a young informant with a short blond bob, a red leather jacket and silver hoop earrings, both looking straight ahead. Close-up of a young informant with a short blond bob, a red leather jacket and silver hoop earrings sliding a small photograph across the counter. Close-up of the photograph showing a man in a white suit beside a black car. A tall detective in a gray trench coat and a black fedora with a thin mustache pockets the photograph and leaves money on the counter of a dim jazz bar with green lamps and a long wooden counter. A young informant with a short blond bob, a red leather jacket and silver hoop earrings glances nervously toward the door of a dim jazz bar with green lamps and a long wooden counter. A man in a white suit steps out of a black car in the rain outside. A tall detective in a gray trench coat and a black fedora with a thin mustache watches the man in the white suit through the rain-streaked window of a dim jazz bar with green lamps and a long wooden counter. A tall detective in a gray trench coat and a black fedora with a thin mustache follows the man in the white suit down a narrow alley. The man in the white suit disappears through a metal door in the alley. A tall detective in a gray trench coat and a black fedora with a thin mustache picks the lock of the metal door with a thin wire. Inside a dusty warehouse, a tall detective in a gray trench coat and a black fedora with a thin mustache shines a flashlight across stacked crates. Close-up of a crate stamped with a red star, a tall detective in a gray trench coat and a black fedora with a thin mustache prying it open. A tall detective in a gray trench coat and a black fedora with a thin mustache pulls a stack of old documents from the crate, his eyes narrowing. Footsteps echo and a tall detective in a gray trench coat and a black fedora with a thin mustache hides behind the crates, switching off the flashlight. A young informant with a short blond bob, a red leather jacket and silver hoop earrings enters the warehouse, looking around in the dark. A tall detective in a gray trench coat and a black fedora with a thin mustache steps out and grabs the arm of a young informant with a short blond bob, a red leather jacket and silver hoop earrings, surprised to see her. A young informant with a short blond bob, a red leather jacket and silver hoop earrings whispers urgently to a tall detective in a gray trench coat and a black fedora with a thin mustache, pointing toward a back exit. A tall detective in a gray trench coat and a black fedora with a thin mustache and a young informant with a short blond bob, a red leather jacket and silver hoop earrings run out of the warehouse into the rain. A tall detective in a gray trench coat and a black fedora with a thin mustache and a young informant with a short blond bob, a red leather jacket and silver hoop earrings hide in a doorway as the black car speeds past. Back at a dim jazz bar with green lamps and a long wooden counter, a tall detective in a gray trench coat and a black fedora with a thin mustache spreads the documents on a corner table under a green lamp. Close-up of a young informant with a short blond bob, a red leather jacket and silver hoop earrings tracing a name on the documents with her finger. A tall detective in a gray trench coat and a black fedora with a thin mustache lights a cigarette and stares at the documents, thinking. Dawn breaks over the wet city as a tall detective in a gray trench coat and a black fedora with a thin mustache and a young informant with a short blond bob, a red leather jacket and silver hoop earrings walk away together down the empty street.",
+   "shots": 28,
+   "lengths": [
+    17,
+    8,
+    13,
+    11,
+    12,
+    12,
+    9,
+    12,
+    11,
+    18,
+    13,
+    12,
+    12,
+    11,
+    11,
+    12,
+    14,
+    12,
+    15,
+    12,
+    13,
+    16,
+    14,
+    12,
+    12,
+    14,
+    16,
+    12
+   ],
+   "frames": 1421,
+   "segments": {
+    "1421": {
+     "latent_frames": 356,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        17
+       ],
+       "pixel": [
+        0,
+        65
+       ]
+      },
+      {
+       "latent": [
+        17,
+        25
+       ],
+       "pixel": [
+        65,
+        97
+       ]
+      },
+      {
+       "latent": [
+        25,
+        38
+       ],
+       "pixel": [
+        97,
+        149
+       ]
+      },
+      {
+       "latent": [
+        38,
+        49
+       ],
+       "pixel": [
+        149,
+        193
+       ]
+      },
+      {
+       "latent": [
+        49,
+        61
+       ],
+       "pixel": [
+        193,
+        241
+       ]
+      },
+      {
+       "latent": [
+        61,
+        73
+       ],
+       "pixel": [
+        241,
+        289
+       ]
+      },
+      {
+       "latent": [
+        73,
+        82
+       ],
+       "pixel": [
+        289,
+        325
+       ]
+      },
+      {
+       "latent": [
+        82,
+        94
+       ],
+       "pixel": [
+        325,
+        373
+       ]
+      },
+      {
+       "latent": [
+        94,
+        105
+       ],
+       "pixel": [
+        373,
+        417
+       ]
+      },
+      {
+       "latent": [
+        105,
+        123
+       ],
+       "pixel": [
+        417,
+        489
+       ]
+      },
+      {
+       "latent": [
+        123,
+        136
+       ],
+       "pixel": [
+        489,
+        541
+       ]
+      },
+      {
+       "latent": [
+        136,
+        148
+       ],
+       "pixel": [
+        541,
+        589
+       ]
+      },
+      {
+       "latent": [
+        148,
+        160
+       ],
+       "pixel": [
+        589,
+        637
+       ]
+      },
+      {
+       "latent": [
+        160,
+        171
+       ],
+       "pixel": [
+        637,
+        681
+       ]
+      },
+      {
+       "latent": [
+        171,
+        182
+       ],
+       "pixel": [
+        681,
+        725
+       ]
+      },
+      {
+       "latent": [
+        182,
+        194
+       ],
+       "pixel": [
+        725,
+        773
+       ]
+      },
+      {
+       "latent": [
+        194,
+        208
+       ],
+       "pixel": [
+        773,
+        829
+       ]
+      },
+      {
+       "latent": [
+        208,
+        220
+       ],
+       "pixel": [
+        829,
+        877
+       ]
+      },
+      {
+       "latent": [
+        220,
+        235
+       ],
+       "pixel": [
+        877,
+        937
+       ]
+      },
+      {
+       "latent": [
+        235,
+        247
+       ],
+       "pixel": [
+        937,
+        985
+       ]
+      },
+      {
+       "latent": [
+        247,
+        260
+       ],
+       "pixel": [
+        985,
+        1037
+       ]
+      },
+      {
+       "latent": [
+        260,
+        276
+       ],
+       "pixel": [
+        1037,
+        1101
+       ]
+      },
+      {
+       "latent": [
+        276,
+        290
+       ],
+       "pixel": [
+        1101,
+        1157
+       ]
+      },
+      {
+       "latent": [
+        290,
+        302
+       ],
+       "pixel": [
+        1157,
+        1205
+       ]
+      },
+      {
+       "latent": [
+        302,
+        314
+       ],
+       "pixel": [
+        1205,
+        1253
+       ]
+      },
+      {
+       "latent": [
+        314,
+        328
+       ],
+       "pixel": [
+        1253,
+        1309
+       ]
+      },
+      {
+       "latent": [
+        328,
+        344
+       ],
+       "pixel": [
+        1309,
+        1373
+       ]
+      },
+      {
+       "latent": [
+        344,
+        356
+       ],
+       "pixel": [
+        1373,
+        1421
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "minute_seasons",
+   "source": "ours",
+   "category": "consistency",
+   "subject": "boy",
+   "pattern": "boy and dog, one place, four seasons",
+   "entities": [
+    {
+     "name": "boy",
+     "description": "a small boy with short brown hair, freckles and a blue striped sweater"
+    },
+    {
+     "name": "dog",
+     "description": "a golden retriever puppy with a red collar"
+    }
+   ],
+   "sentences": [
+    "Spring, wide shot of a large old oak tree on a hill beside a white farmhouse, green leaves and blossoming flowers in the grass.",
+    "A small boy with short brown hair, freckles and a blue striped sweater opens a cardboard box and finds a golden retriever puppy with a red collar inside.",
+    "Close-up of a golden retriever puppy with a red collar licking the face of a small boy with short brown hair, freckles and a blue striped sweater, who giggles.",
+    "A small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar run across a green meadow toward a large old oak tree on a hill beside a white farmhouse.",
+    "A golden retriever puppy with a red collar chases a butterfly among yellow flowers.",
+    "A small boy with short brown hair, freckles and a blue striped sweater sits under a large old oak tree on a hill beside a white farmhouse with a golden retriever puppy with a red collar asleep in his lap.",
+    "Spring rain, a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar splash in muddy puddles near the farmhouse.",
+    "A small boy with short brown hair, freckles and a blue striped sweater dries a golden retriever puppy with a red collar with a towel on the porch of the white farmhouse.",
+    "Summer, a large old oak tree on a hill beside a white farmhouse full of dark green leaves under a bright sun.",
+    "A small boy with short brown hair, freckles and a blue striped sweater hangs a tire swing from a branch of a large old oak tree on a hill beside a white farmhouse.",
+    "A small boy with short brown hair, freckles and a blue striped sweater swings on the tire swing while a golden retriever puppy with a red collar barks happily below.",
+    "A small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar swim in a small pond, water sparkling in the sunlight.",
+    "A golden retriever puppy with a red collar shakes water from its fur, spraying a small boy with short brown hair, freckles and a blue striped sweater who laughs.",
+    "Summer night, a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar lie in the grass watching fireflies.",
+    "Close-up of fireflies glowing above the sleeping a golden retriever puppy with a red collar.",
+    "Autumn, a large old oak tree on a hill beside a white farmhouse covered in orange and red leaves.",
+    "A small boy with short brown hair, freckles and a blue striped sweater rakes a big pile of orange leaves under a large old oak tree on a hill beside a white farmhouse.",
+    "A golden retriever puppy with a red collar jumps into the pile of leaves, scattering them everywhere.",
+    "A small boy with short brown hair, freckles and a blue striped sweater carves a pumpkin on the porch of the white farmhouse while a golden retriever puppy with a red collar watches.",
+    "Close-up of a glowing jack-o-lantern on the porch, a golden retriever puppy with a red collar sniffing it.",
+    "Autumn wind blows the last leaves from a large old oak tree on a hill beside a white farmhouse as a small boy with short brown hair, freckles and a blue striped sweater pulls his sweater tighter.",
+    "Winter, a large old oak tree on a hill beside a white farmhouse bare and covered in snow, the white farmhouse with smoke rising from the chimney.",
+    "A small boy with short brown hair, freckles and a blue striped sweater in a red scarf builds a snowman under a large old oak tree on a hill beside a white farmhouse.",
+    "A golden retriever puppy with a red collar steals the carrot nose of the snowman and runs away.",
+    "A small boy with short brown hair, freckles and a blue striped sweater chases a golden retriever puppy with a red collar through deep snow, both tumbling and laughing.",
+    "Inside the white farmhouse, a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar sit by a crackling fireplace.",
+    "Close-up of a small boy with short brown hair, freckles and a blue striped sweater sipping hot chocolate, a golden retriever puppy with a red collar resting its head on his knee.",
+    "Snow falls gently outside the window as a small boy with short brown hair, freckles and a blue striped sweater falls asleep with a golden retriever puppy with a red collar.",
+    "Spring again, a large old oak tree on a hill beside a white farmhouse blooming with new green leaves.",
+    "A small boy with short brown hair, freckles and a blue striped sweater, a little taller, runs up the hill with a golden retriever puppy with a red collar, now grown larger.",
+    "A small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar sit together under a large old oak tree on a hill beside a white farmhouse, looking at the farmhouse below.",
+    "Wide shot of a large old oak tree on a hill beside a white farmhouse on the hill with a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar as the sun sets."
+   ],
+   "prompt": "Spring, wide shot of a large old oak tree on a hill beside a white farmhouse, green leaves and blossoming flowers in the grass. A small boy with short brown hair, freckles and a blue striped sweater opens a cardboard box and finds a golden retriever puppy with a red collar inside. Close-up of a golden retriever puppy with a red collar licking the face of a small boy with short brown hair, freckles and a blue striped sweater, who giggles. A small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar run across a green meadow toward a large old oak tree on a hill beside a white farmhouse. A golden retriever puppy with a red collar chases a butterfly among yellow flowers. A small boy with short brown hair, freckles and a blue striped sweater sits under a large old oak tree on a hill beside a white farmhouse with a golden retriever puppy with a red collar asleep in his lap. Spring rain, a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar splash in muddy puddles near the farmhouse. A small boy with short brown hair, freckles and a blue striped sweater dries a golden retriever puppy with a red collar with a towel on the porch of the white farmhouse. Summer, a large old oak tree on a hill beside a white farmhouse full of dark green leaves under a bright sun. A small boy with short brown hair, freckles and a blue striped sweater hangs a tire swing from a branch of a large old oak tree on a hill beside a white farmhouse. A small boy with short brown hair, freckles and a blue striped sweater swings on the tire swing while a golden retriever puppy with a red collar barks happily below. A small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar swim in a small pond, water sparkling in the sunlight. A golden retriever puppy with a red collar shakes water from its fur, spraying a small boy with short brown hair, freckles and a blue striped sweater who laughs. Summer night, a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar lie in the grass watching fireflies. Close-up of fireflies glowing above the sleeping a golden retriever puppy with a red collar. Autumn, a large old oak tree on a hill beside a white farmhouse covered in orange and red leaves. A small boy with short brown hair, freckles and a blue striped sweater rakes a big pile of orange leaves under a large old oak tree on a hill beside a white farmhouse. A golden retriever puppy with a red collar jumps into the pile of leaves, scattering them everywhere. A small boy with short brown hair, freckles and a blue striped sweater carves a pumpkin on the porch of the white farmhouse while a golden retriever puppy with a red collar watches. Close-up of a glowing jack-o-lantern on the porch, a golden retriever puppy with a red collar sniffing it. Autumn wind blows the last leaves from a large old oak tree on a hill beside a white farmhouse as a small boy with short brown hair, freckles and a blue striped sweater pulls his sweater tighter. Winter, a large old oak tree on a hill beside a white farmhouse bare and covered in snow, the white farmhouse with smoke rising from the chimney. A small boy with short brown hair, freckles and a blue striped sweater in a red scarf builds a snowman under a large old oak tree on a hill beside a white farmhouse. A golden retriever puppy with a red collar steals the carrot nose of the snowman and runs away. A small boy with short brown hair, freckles and a blue striped sweater chases a golden retriever puppy with a red collar through deep snow, both tumbling and laughing. Inside the white farmhouse, a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar sit by a crackling fireplace. Close-up of a small boy with short brown hair, freckles and a blue striped sweater sipping hot chocolate, a golden retriever puppy with a red collar resting its head on his knee. Snow falls gently outside the window as a small boy with short brown hair, freckles and a blue striped sweater falls asleep with a golden retriever puppy with a red collar. Spring again, a large old oak tree on a hill beside a white farmhouse blooming with new green leaves. A small boy with short brown hair, freckles and a blue striped sweater, a little taller, runs up the hill with a golden retriever puppy with a red collar, now grown larger. A small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar sit together under a large old oak tree on a hill beside a white farmhouse, looking at the farmhouse below. Wide shot of a large old oak tree on a hill beside a white farmhouse on the hill with a small boy with short brown hair, freckles and a blue striped sweater and a golden retriever puppy with a red collar as the sun sets.",
+   "shots": 32,
+   "lengths": [
+    10,
+    11,
+    15,
+    13,
+    8,
+    11,
+    10,
+    12,
+    8,
+    12,
+    12,
+    15,
+    12,
+    12,
+    8,
+    16,
+    7,
+    14,
+    11,
+    10,
+    10,
+    10,
+    12,
+    11,
+    14,
+    8,
+    11,
+    10,
+    13,
+    7,
+    11,
+    12
+   ],
+   "frames": 1421,
+   "segments": {
+    "1421": {
+     "latent_frames": 356,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        21
+       ],
+       "pixel": [
+        37,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        36
+       ],
+       "pixel": [
+        81,
+        141
+       ]
+      },
+      {
+       "latent": [
+        36,
+        49
+       ],
+       "pixel": [
+        141,
+        193
+       ]
+      },
+      {
+       "latent": [
+        49,
+        57
+       ],
+       "pixel": [
+        193,
+        225
+       ]
+      },
+      {
+       "latent": [
+        57,
+        68
+       ],
+       "pixel": [
+        225,
+        269
+       ]
+      },
+      {
+       "latent": [
+        68,
+        78
+       ],
+       "pixel": [
+        269,
+        309
+       ]
+      },
+      {
+       "latent": [
+        78,
+        90
+       ],
+       "pixel": [
+        309,
+        357
+       ]
+      },
+      {
+       "latent": [
+        90,
+        98
+       ],
+       "pixel": [
+        357,
+        389
+       ]
+      },
+      {
+       "latent": [
+        98,
+        110
+       ],
+       "pixel": [
+        389,
+        437
+       ]
+      },
+      {
+       "latent": [
+        110,
+        122
+       ],
+       "pixel": [
+        437,
+        485
+       ]
+      },
+      {
+       "latent": [
+        122,
+        137
+       ],
+       "pixel": [
+        485,
+        545
+       ]
+      },
+      {
+       "latent": [
+        137,
+        149
+       ],
+       "pixel": [
+        545,
+        593
+       ]
+      },
+      {
+       "latent": [
+        149,
+        161
+       ],
+       "pixel": [
+        593,
+        641
+       ]
+      },
+      {
+       "latent": [
+        161,
+        169
+       ],
+       "pixel": [
+        641,
+        673
+       ]
+      },
+      {
+       "latent": [
+        169,
+        185
+       ],
+       "pixel": [
+        673,
+        737
+       ]
+      },
+      {
+       "latent": [
+        185,
+        192
+       ],
+       "pixel": [
+        737,
+        765
+       ]
+      },
+      {
+       "latent": [
+        192,
+        206
+       ],
+       "pixel": [
+        765,
+        821
+       ]
+      },
+      {
+       "latent": [
+        206,
+        217
+       ],
+       "pixel": [
+        821,
+        865
+       ]
+      },
+      {
+       "latent": [
+        217,
+        227
+       ],
+       "pixel": [
+        865,
+        905
+       ]
+      },
+      {
+       "latent": [
+        227,
+        237
+       ],
+       "pixel": [
+        905,
+        945
+       ]
+      },
+      {
+       "latent": [
+        237,
+        247
+       ],
+       "pixel": [
+        945,
+        985
+       ]
+      },
+      {
+       "latent": [
+        247,
+        259
+       ],
+       "pixel": [
+        985,
+        1033
+       ]
+      },
+      {
+       "latent": [
+        259,
+        270
+       ],
+       "pixel": [
+        1033,
+        1077
+       ]
+      },
+      {
+       "latent": [
+        270,
+        284
+       ],
+       "pixel": [
+        1077,
+        1133
+       ]
+      },
+      {
+       "latent": [
+        284,
+        292
+       ],
+       "pixel": [
+        1133,
+        1165
+       ]
+      },
+      {
+       "latent": [
+        292,
+        303
+       ],
+       "pixel": [
+        1165,
+        1209
+       ]
+      },
+      {
+       "latent": [
+        303,
+        313
+       ],
+       "pixel": [
+        1209,
+        1249
+       ]
+      },
+      {
+       "latent": [
+        313,
+        326
+       ],
+       "pixel": [
+        1249,
+        1301
+       ]
+      },
+      {
+       "latent": [
+        326,
+        333
+       ],
+       "pixel": [
+        1301,
+        1329
+       ]
+      },
+      {
+       "latent": [
+        333,
+        344
+       ],
+       "pixel": [
+        1329,
+        1373
+       ]
+      },
+      {
+       "latent": [
+        344,
+        356
+       ],
+       "pixel": [
+        1373,
+        1421
+       ]
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

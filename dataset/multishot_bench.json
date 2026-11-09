@@ -1,0 +1,4280 @@
+{
+ "prompts": [
+  {
+   "id": "holo_1",
+   "source": "HoloCine",
+   "source_id": "inference example 1 (masquerade)",
+   "license": "Apache-2.0 (code repo)",
+   "category": "consistency",
+   "pattern": "two characters, one scene",
+   "subject": "mysterious woman",
+   "entities": [
+    {
+     "name": "character1",
+     "description": "a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask"
+    },
+    {
+     "name": "character2",
+     "description": "a dapper gentleman in a black tuxedo with a simple black domino mask"
+    }
+   ],
+   "sentences": [
+    "Medium shot of a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask standing by a pillar, observing the crowd, a champagne flute in her hand, in a lavish 1920s Art Deco ballroom during a masquerade party.",
+    "Close-up of a dapper gentleman in a black tuxedo with a simple black domino mask watching her from across the room, a look of intrigue on his visible features, in a lavish 1920s Art Deco ballroom during a masquerade party.",
+    "Medium shot as a dapper gentleman in a black tuxedo with a simple black domino mask navigates the crowd and approaches a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask, offering a polite bow, in a lavish 1920s Art Deco ballroom during a masquerade party.",
+    "Close-up on the eyes of a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask through her mask, as they crinkle in a subtle, amused smile, in a lavish 1920s Art Deco ballroom during a masquerade party.",
+    "A stylish medium two-shot of them standing together, the swirling party out of focus behind them, as they begin to converse; the shot shows a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask and a dapper gentleman in a black tuxedo with a simple black domino mask, in a lavish 1920s Art Deco ballroom during a masquerade party."
+   ],
+   "sentences_raw": [
+    "Medium shot of [character1] standing by a pillar, observing the crowd, a champagne flute in her hand.",
+    "Close-up of [character2] watching her from across the room, a look of intrigue on his visible features.",
+    "Medium shot as [character2] navigates the crowd and approaches [character1], offering a polite bow.",
+    "Close-up on [character1]'s eyes through her mask, as they crinkle in a subtle, amused smile.",
+    "A stylish medium two-shot of them standing together, the swirling party out of focus behind them, as they begin to converse."
+   ],
+   "prompt": "Medium shot of a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask standing by a pillar, observing the crowd, a champagne flute in her hand, in a lavish 1920s Art Deco ballroom during a masquerade party. Close-up of a dapper gentleman in a black tuxedo with a simple black domino mask watching her from across the room, a look of intrigue on his visible features, in a lavish 1920s Art Deco ballroom during a masquerade party. Medium shot as a dapper gentleman in a black tuxedo with a simple black domino mask navigates the crowd and approaches a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask, offering a polite bow, in a lavish 1920s Art Deco ballroom during a masquerade party. Close-up on the eyes of a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask through her mask, as they crinkle in a subtle, amused smile, in a lavish 1920s Art Deco ballroom during a masquerade party. A stylish medium two-shot of them standing together, the swirling party out of focus behind them, as they begin to converse; the shot shows a mysterious woman with a sleek bob, a sequined silver dress and an ornate feather mask and a dapper gentleman in a black tuxedo with a simple black domino mask, in a lavish 1920s Art Deco ballroom during a masquerade party.",
+   "shots": 5,
+   "lengths": [
+    7,
+    7,
+    7,
+    7,
+    7
+   ],
+   "frames": 137,
+   "segments": {
+    "137": {
+     "latent_frames": 35,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        28
+       ],
+       "pixel": [
+        81,
+        109
+       ]
+      },
+      {
+       "latent": [
+        28,
+        35
+       ],
+       "pixel": [
+        109,
+        137
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "HoloCine even split"
+  },
+  {
+   "id": "holo_2",
+   "source": "HoloCine",
+   "source_id": "inference example 2 (painter)",
+   "license": "Apache-2.0 (code repo)",
+   "category": "consistency",
+   "pattern": "one character, one scene",
+   "subject": "young painter",
+   "entities": [
+    {
+     "name": "character1",
+     "description": "a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair"
+    }
+   ],
+   "sentences": [
+    "Medium shot of a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair standing back from a large canvas, brush in hand, critically observing her work, in a bright, sun-drenched art studio with large windows and canvases.",
+    "Close-up of her hand holding the brush, dabbing it thoughtfully onto a palette of vibrant colors; the shot shows a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, in a bright, sun-drenched art studio with large windows and canvases.",
+    "Extreme close-up of her eyes, narrowed in concentration as she studies the canvas; the shot shows a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, in a bright, sun-drenched art studio with large windows and canvases.",
+    "Close-up on the canvas, showing a detailed, textured brushstroke being slowly applied, in a bright, sun-drenched art studio with large windows and canvases.",
+    "Medium close-up of the face of a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, a small, satisfied smile appears as she finds the right color, in a bright, sun-drenched art studio with large windows and canvases.",
+    "Over-the-shoulder shot showing her add a final, delicate highlight to the painting; the shot shows a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, in a bright, sun-drenched art studio with large windows and canvases."
+   ],
+   "sentences_raw": [
+    "Medium shot of [character1] standing back from a large canvas, brush in hand, critically observing her work.",
+    "Close-up of her hand holding the brush, dabbing it thoughtfully onto a palette of vibrant colors.",
+    "Extreme close-up of her eyes, narrowed in concentration as she studies the canvas.",
+    "Close-up on the canvas, showing a detailed, textured brushstroke being slowly applied.",
+    "Medium close-up of [character1]'s face, a small, satisfied smile appears as she finds the right color.",
+    "Over-the-shoulder shot showing her add a final, delicate highlight to the painting."
+   ],
+   "prompt": "Medium shot of a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair standing back from a large canvas, brush in hand, critically observing her work, in a bright, sun-drenched art studio with large windows and canvases. Close-up of her hand holding the brush, dabbing it thoughtfully onto a palette of vibrant colors; the shot shows a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, in a bright, sun-drenched art studio with large windows and canvases. Extreme close-up of her eyes, narrowed in concentration as she studies the canvas; the shot shows a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, in a bright, sun-drenched art studio with large windows and canvases. Close-up on the canvas, showing a detailed, textured brushstroke being slowly applied, in a bright, sun-drenched art studio with large windows and canvases. Medium close-up of the face of a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, a small, satisfied smile appears as she finds the right color, in a bright, sun-drenched art studio with large windows and canvases. Over-the-shoulder shot showing her add a final, delicate highlight to the painting; the shot shows a young painter with paint-smudged cheeks, intense focused eyes and messily tied-up hair, in a bright, sun-drenched art studio with large windows and canvases.",
+   "shots": 6,
+   "lengths": [
+    6,
+    6,
+    7,
+    10,
+    6,
+    6
+   ],
+   "frames": 161,
+   "segments": {
+    "161": {
+     "latent_frames": 41,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        12
+       ],
+       "pixel": [
+        21,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        19
+       ],
+       "pixel": [
+        45,
+        73
+       ]
+      },
+      {
+       "latent": [
+        19,
+        29
+       ],
+       "pixel": [
+        73,
+        113
+       ]
+      },
+      {
+       "latent": [
+        29,
+        35
+       ],
+       "pixel": [
+        113,
+        137
+       ]
+      },
+      {
+       "latent": [
+        35,
+        41
+       ],
+       "pixel": [
+        137,
+        161
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "HoloCine shot_cut_frames"
+  },
+  {
+   "id": "holo_3",
+   "source": "HoloCine",
+   "source_id": "inference example 3 (boxing gym)",
+   "license": "Apache-2.0 (code repo)",
+   "category": "consistency",
+   "pattern": "two characters, one scene",
+   "subject": "weary, aging boxing coach",
+   "entities": [
+    {
+     "name": "character1",
+     "description": "a weary, aging boxing coach with a towel around his neck and a kind but tough face"
+    },
+    {
+     "name": "character2",
+     "description": "a young female boxer with a focused, intense expression and wrapped hands"
+    }
+   ],
+   "sentences": [
+    "Medium shot of a young female boxer with a focused, intense expression and wrapped hands relentlessly hitting a heavy bag, in a gritty underground boxing gym with punching bags and brick walls.",
+    "Close-up of a weary, aging boxing coach with a towel around his neck and a kind but tough face watching her, his expression critical yet proud, in a gritty underground boxing gym with punching bags and brick walls.",
+    "Close-up of the determined of a young female boxer with a focused, intense expression and wrapped hands face, dripping with sweat, her eyes fixed on the bag, in a gritty underground boxing gym with punching bags and brick walls.",
+    "Medium shot as a weary, aging boxing coach with a towel around his neck and a kind but tough face approaches and stops the bag, giving her a piece of advice, in a gritty underground boxing gym with punching bags and brick walls.",
+    "Close-up of a young female boxer with a focused, intense expression and wrapped hands listening intently, nodding in understanding, in a gritty underground boxing gym with punching bags and brick walls.",
+    "Medium shot as she turns back to the bag and starts punching again, her form now visibly improved; the shot shows a young female boxer with a focused, intense expression and wrapped hands, in a gritty underground boxing gym with punching bags and brick walls."
+   ],
+   "sentences_raw": [
+    "Medium shot of [character2] relentlessly hitting a heavy bag.",
+    "Close-up of [character1] watching her, his expression critical yet proud.",
+    "Close-up of [character2]'s determined face, dripping with sweat, her eyes fixed on the bag.",
+    "Medium shot as [character1] approaches and stops the bag, giving her a piece of advice.",
+    "Close-up of [character2] listening intently, nodding in understanding.",
+    "Medium shot as she turns back to the bag and starts punching again, her form now visibly improved."
+   ],
+   "prompt": "Medium shot of a young female boxer with a focused, intense expression and wrapped hands relentlessly hitting a heavy bag, in a gritty underground boxing gym with punching bags and brick walls. Close-up of a weary, aging boxing coach with a towel around his neck and a kind but tough face watching her, his expression critical yet proud, in a gritty underground boxing gym with punching bags and brick walls. Close-up of the determined of a young female boxer with a focused, intense expression and wrapped hands face, dripping with sweat, her eyes fixed on the bag, in a gritty underground boxing gym with punching bags and brick walls. Medium shot as a weary, aging boxing coach with a towel around his neck and a kind but tough face approaches and stops the bag, giving her a piece of advice, in a gritty underground boxing gym with punching bags and brick walls. Close-up of a young female boxer with a focused, intense expression and wrapped hands listening intently, nodding in understanding, in a gritty underground boxing gym with punching bags and brick walls. Medium shot as she turns back to the bag and starts punching again, her form now visibly improved; the shot shows a young female boxer with a focused, intense expression and wrapped hands, in a gritty underground boxing gym with punching bags and brick walls.",
+   "shots": 6,
+   "lengths": [
+    6,
+    7,
+    7,
+    7,
+    7,
+    8
+   ],
+   "frames": 165,
+   "segments": {
+    "165": {
+     "latent_frames": 42,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        13
+       ],
+       "pixel": [
+        21,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        20
+       ],
+       "pixel": [
+        49,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        27
+       ],
+       "pixel": [
+        77,
+        105
+       ]
+      },
+      {
+       "latent": [
+        27,
+        34
+       ],
+       "pixel": [
+        105,
+        133
+       ]
+      },
+      {
+       "latent": [
+        34,
+        42
+       ],
+       "pixel": [
+        133,
+        165
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "HoloCine shot_cut_frames"
+  },
+  {
+   "id": "holo_4",
+   "source": "HoloCine",
+   "source_id": "inference example 4 (celtic ruin)",
+   "license": "Apache-2.0 (code repo)",
+   "category": "consistency",
+   "pattern": "two characters, one scene",
+   "subject": "skeptical woman historian in practical hiking gear",
+   "entities": [
+    {
+     "name": "character1",
+     "description": "a skeptical woman historian in practical hiking gear with a camera"
+    },
+    {
+     "name": "character2",
+     "description": "the translucent spectral figure of an ancient Celtic queen with long flowing red hair and a silver circlet"
+    }
+   ],
+   "sentences": [
+    "Medium shot of a skeptical woman historian in practical hiking gear with a camera carefully touching a moss-covered standing stone, a look of academic interest on her face, among mossy standing stones of a misty ancient Celtic ruin at dawn.",
+    "Close-up of her face, her expression changing to one of utter shock as she sees something off-camera; the shot shows a skeptical woman historian in practical hiking gear with a camera, among mossy standing stones of a misty ancient Celtic ruin at dawn.",
+    "A soft-focus shot of the translucent spectral figure of an ancient Celtic queen with long flowing red hair and a silver circlet slowly materializing from the mist between two stones, among mossy standing stones of a misty ancient Celtic ruin at dawn.",
+    "Medium shot of a skeptical woman historian in practical hiking gear with a camera stumbling backward, lowering her camera, her skepticism completely shattered, among mossy standing stones of a misty ancient Celtic ruin at dawn.",
+    "Close-up of the spectral of the translucent spectral figure of an ancient Celtic queen with long flowing red hair and a silver circlet face, her expression sad and timeless as she looks at the historian, among mossy standing stones of a misty ancient Celtic ruin at dawn."
+   ],
+   "sentences_raw": [
+    "Medium shot of [character1] carefully touching a moss-covered standing stone, a look of academic interest on her face.",
+    "Close-up of her face, her expression changing to one of utter shock as she sees something off-camera.",
+    "A soft-focus shot of [character2] slowly materializing from the mist between two stones.",
+    "Medium shot of [character1] stumbling backward, lowering her camera, her skepticism completely shattered.",
+    "Close-up of [character2]'s spectral face, her expression sad and timeless as she looks at the historian."
+   ],
+   "prompt": "Medium shot of a skeptical woman historian in practical hiking gear with a camera carefully touching a moss-covered standing stone, a look of academic interest on her face, among mossy standing stones of a misty ancient Celtic ruin at dawn. Close-up of her face, her expression changing to one of utter shock as she sees something off-camera; the shot shows a skeptical woman historian in practical hiking gear with a camera, among mossy standing stones of a misty ancient Celtic ruin at dawn. A soft-focus shot of the translucent spectral figure of an ancient Celtic queen with long flowing red hair and a silver circlet slowly materializing from the mist between two stones, among mossy standing stones of a misty ancient Celtic ruin at dawn. Medium shot of a skeptical woman historian in practical hiking gear with a camera stumbling backward, lowering her camera, her skepticism completely shattered, among mossy standing stones of a misty ancient Celtic ruin at dawn. Close-up of the spectral of the translucent spectral figure of an ancient Celtic queen with long flowing red hair and a silver circlet face, her expression sad and timeless as she looks at the historian, among mossy standing stones of a misty ancient Celtic ruin at dawn.",
+   "shots": 5,
+   "lengths": [
+    7,
+    6,
+    6,
+    8,
+    8
+   ],
+   "frames": 137,
+   "segments": {
+    "137": {
+     "latent_frames": 35,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        13
+       ],
+       "pixel": [
+        25,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        19
+       ],
+       "pixel": [
+        49,
+        73
+       ]
+      },
+      {
+       "latent": [
+        19,
+        27
+       ],
+       "pixel": [
+        73,
+        105
+       ]
+      },
+      {
+       "latent": [
+        27,
+        35
+       ],
+       "pixel": [
+        105,
+        137
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "duration_source": "HoloCine shot_cut_frames"
+  },
+  {
+   "id": "holo_5",
+   "source": "HoloCine",
+   "source_id": "inference example 5 (elf forest)",
+   "license": "Apache-2.0 (code repo)",
+   "category": "consistency",
+   "pattern": "two characters, one scene",
+   "subject": "ancient elf",
+   "entities": [
+    {
+     "name": "character1",
+     "description": "an ancient elf with long silver hair braided with glowing flowers and ethereal white robes"
+    },
+    {
+     "name": "character2",
+     "description": "a lost human child with short messy brown hair and wide fearful eyes, clutching a wooden toy"
+    }
+   ],
+   "sentences": [
+    "Medium shot of a lost human child with short messy brown hair and wide fearful eyes, clutching a wooden toy hiding behind a large, glowing mushroom, peering out nervously, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms.",
+    "Close-up of the hand of an ancient elf with long silver hair braided with glowing flowers and ethereal white robes, fingers adorned with delicate rings, gently touching a luminous plant, causing it to glow brighter, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms.",
+    "Medium shot of an ancient elf with long silver hair braided with glowing flowers and ethereal white robes turning their head, their pointed ears catching the faint sound of the child's whimper, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms.",
+    "Close-up of the face of a lost human child with short messy brown hair and wide fearful eyes, clutching a wooden toy, a tear rolling down their cheek, illuminated by the blue light of the forest, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms.",
+    "A soft-focus shot from the child's perspective, showing an ancient elf with long silver hair braided with glowing flowers and ethereal white robes approaching slowly with a kind, reassuring smile, their form haloed by the forest's light, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms."
+   ],
+   "sentences_raw": [
+    "Medium shot of [character2] hiding behind a large, glowing mushroom, peering out nervously.",
+    "Close-up of [character1]'s hand, fingers adorned with delicate rings, gently touching a luminous plant, causing it to glow brighter.",
+    "Medium shot of [character1] turning their head, their pointed ears catching the faint sound of the child's whimper.",
+    "Close-up of [character2]'s face, a tear rolling down their cheek, illuminated by the blue light of the forest.",
+    "A soft-focus shot from the child's perspective, showing [character1] approaching slowly with a kind, reassuring smile, their form haloed by the forest's light."
+   ],
+   "prompt": "Medium shot of a lost human child with short messy brown hair and wide fearful eyes, clutching a wooden toy hiding behind a large, glowing mushroom, peering out nervously, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms. Close-up of the hand of an ancient elf with long silver hair braided with glowing flowers and ethereal white robes, fingers adorned with delicate rings, gently touching a luminous plant, causing it to glow brighter, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms. Medium shot of an ancient elf with long silver hair braided with glowing flowers and ethereal white robes turning their head, their pointed ears catching the faint sound of the child's whimper, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms. Close-up of the face of a lost human child with short messy brown hair and wide fearful eyes, clutching a wooden toy, a tear rolling down their cheek, illuminated by the blue light of the forest, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms. A soft-focus shot from the child's perspective, showing an ancient elf with long silver hair braided with glowing flowers and ethereal white robes approaching slowly with a kind, reassuring smile, their form haloed by the forest's light, in an enchanted bioluminescent forest at twilight with giant glowing mushrooms.",
+   "shots": 5,
+   "lengths": [
+    7,
+    6,
+    6,
+    8,
+    8
+   ],
+   "frames": 137,
+   "segments": {
+    "137": {
+     "latent_frames": 35,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        13
+       ],
+       "pixel": [
+        25,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        19
+       ],
+       "pixel": [
+        49,
+        73
+       ]
+      },
+      {
+       "latent": [
+        19,
+        27
+       ],
+       "pixel": [
+        73,
+        105
+       ]
+      },
+      {
+       "latent": [
+        27,
+        35
+       ],
+       "pixel": [
+        105,
+        137
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "duration_source": "HoloCine shot_cut_frames"
+  },
+  {
+   "id": "s2s_hG-BGG2JL4I.1",
+   "source": "Shot2Story-20K test",
+   "source_id": "hG-BGG2JL4I.1",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "glass bowl",
+   "entities": [],
+   "sentences": [
+    "A person is using a whisk to mix a white liquid in a glass bowl. The bowl is placed on a gray countertop. The person puts two fingers on the rim of the bowl.",
+    "A person moves a glass bowl filled with macaroni closer to the camera and then pours some white liquid into the bowl. The bowl is placed on a gray countertop.",
+    "A person adds some cheese to a bowl of white mixture. There is a spoon or a fork in the bowl, and the bowl is placed on a gray countertop."
+   ],
+   "sentences_raw": [
+    "In this video, a person is using a whisk to mix a white liquid in a glass bowl. The bowl is placed on a gray countertop. The person puts two fingers on the rim of the bowl.",
+    "In this video, a person moves a glass bowl filled with macaroni closer to the camera and then pours some white liquid into the bowl. The bowl is placed on a gray countertop.",
+    "In this video, a person adds some cheese to a bowl of white mixture. There is a spoon or a fork in the bowl, and the bowl is placed on a gray countertop."
+   ],
+   "prompt": "A person is using a whisk to mix a white liquid in a glass bowl. The bowl is placed on a gray countertop. The person puts two fingers on the rim of the bowl. A person moves a glass bowl filled with macaroni closer to the camera and then pours some white liquid into the bowl. The bowl is placed on a gray countertop. A person adds some cheese to a bowl of white mixture. There is a spoon or a fork in the bowl, and the bowl is placed on a gray countertop.",
+   "shots": 3,
+   "lengths": [
+    5,
+    9,
+    6
+   ],
+   "frames": 77,
+   "segments": {
+    "77": {
+     "latent_frames": 20,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        5
+       ],
+       "pixel": [
+        0,
+        17
+       ]
+      },
+      {
+       "latent": [
+        5,
+        14
+       ],
+       "pixel": [
+        17,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        20
+       ],
+       "pixel": [
+        53,
+        77
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Howto & Style)"
+  },
+  {
+   "id": "s2s_a_HCF3zh1fU.13",
+   "source": "Shot2Story-20K test",
+   "source_id": "a_HCF3zh1fU.13",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "man in red",
+   "entities": [],
+   "sentences": [
+    "A man in red stands at a kitchen counter with his head down cooking. Then the camera pans. There are three ring-like desserts on the operating table.",
+    "A man in red stands at a kitchen counter with his head down cooking. On the counter are food, plates, and an air fryer. He is rubbing food on the counter with his hands.",
+    "A person dressed in red is standing at a kitchen counter cooking. He is rubbing food on the counter with his hands. A black air fryer sits beside him.",
+    "A person forms a yellow finger-thick noodle into a ring. There are already three completed rings of desserts on the counter.",
+    "A man puts molded food on the counter and stands up straight. A plate of food and a black air fryer are placed on the counter.",
+    "A man dressed in red stands at a kitchen counter and looks at the camera as he speaks with gestures. On the counter are food, plates, and an air fryer."
+   ],
+   "sentences_raw": [
+    "In the video, a man in red stands at a kitchen counter with his head down cooking. Then the camera pans. There are three ring-like desserts on the operating table.",
+    "In the video, a man in red stands at a kitchen counter with his head down cooking. On the counter are food, plates, and an air fryer. He is rubbing food on the counter with his hands.",
+    "In the video, a person dressed in red is standing at a kitchen counter cooking. He is rubbing food on the counter with his hands. A black air fryer sits beside him.",
+    "In the video, a person forms a yellow finger-thick noodle into a ring. There are already three completed rings of desserts on the counter.",
+    "In the video, a man puts molded food on the counter and stands up straight. A plate of food and a black air fryer are placed on the counter.",
+    "In the video, a man dressed in red stands at a kitchen counter and looks at the camera as he speaks with gestures. On the counter are food, plates, and an air fryer."
+   ],
+   "prompt": "A man in red stands at a kitchen counter with his head down cooking. Then the camera pans. There are three ring-like desserts on the operating table. A man in red stands at a kitchen counter with his head down cooking. On the counter are food, plates, and an air fryer. He is rubbing food on the counter with his hands. A person dressed in red is standing at a kitchen counter cooking. He is rubbing food on the counter with his hands. A black air fryer sits beside him. A person forms a yellow finger-thick noodle into a ring. There are already three completed rings of desserts on the counter. A man puts molded food on the counter and stands up straight. A plate of food and a black air fryer are placed on the counter. A man dressed in red stands at a kitchen counter and looks at the camera as he speaks with gestures. On the counter are food, plates, and an air fryer.",
+   "shots": 6,
+   "lengths": [
+    5,
+    9,
+    7,
+    7,
+    8,
+    7
+   ],
+   "frames": 169,
+   "segments": {
+    "169": {
+     "latent_frames": 43,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        5
+       ],
+       "pixel": [
+        0,
+        17
+       ]
+      },
+      {
+       "latent": [
+        5,
+        14
+       ],
+       "pixel": [
+        17,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        28
+       ],
+       "pixel": [
+        81,
+        109
+       ]
+      },
+      {
+       "latent": [
+        28,
+        36
+       ],
+       "pixel": [
+        109,
+        141
+       ]
+      },
+      {
+       "latent": [
+        36,
+        43
+       ],
+       "pixel": [
+        141,
+        169
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Howto & Style)"
+  },
+  {
+   "id": "s2s_cwLuQKSSRk0.7",
+   "source": "Shot2Story-20K test",
+   "source_id": "cwLuQKSSRk0.7",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "woman in a red shirt",
+   "entities": [],
+   "sentences": [
+    "A woman in a kitchen preparing food in a blender. She is wearing a red shirt and has her one hand in the air. She picks up a glass bowl with the meat in it. The kitchen has a sink, black cabinets, and flowers.",
+    "A person's hands placing minced meat in a glass bowl into a blender.",
+    "A woman in a kitchen preparing food in a blender. She is wearing a red shirt. She places minced meat in a glass bowl into a blender. The kitchen has a sink, black cabinets, and flowers."
+   ],
+   "sentences_raw": [
+    "The video shows a woman in a kitchen preparing food in a blender. She is wearing a red shirt and has her one hand in the air. She picks up a glass bowl with the meat in it. The kitchen has a sink, black cabinets, and flowers.",
+    "The video shows a person's hands placing minced meat in a glass bowl into a blender.",
+    "The video shows a woman in a kitchen preparing food in a blender. She is wearing a red shirt. She places minced meat in a glass bowl into a blender. The kitchen has a sink, black cabinets, and flowers."
+   ],
+   "prompt": "A woman in a kitchen preparing food in a blender. She is wearing a red shirt and has her one hand in the air. She picks up a glass bowl with the meat in it. The kitchen has a sink, black cabinets, and flowers. A person's hands placing minced meat in a glass bowl into a blender. A woman in a kitchen preparing food in a blender. She is wearing a red shirt. She places minced meat in a glass bowl into a blender. The kitchen has a sink, black cabinets, and flowers.",
+   "shots": 3,
+   "lengths": [
+    10,
+    6,
+    5
+   ],
+   "frames": 81,
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        16
+       ],
+       "pixel": [
+        37,
+        61
+       ]
+      },
+      {
+       "latent": [
+        16,
+        21
+       ],
+       "pixel": [
+        61,
+        81
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Howto & Style)"
+  },
+  {
+   "id": "s2s_HwlztW6zHdY.68",
+   "source": "Shot2Story-20K test",
+   "source_id": "HwlztW6zHdY.68",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "bowl of cream",
+   "entities": [],
+   "sentences": [
+    "A mixer stirring cream in a white glass bowl. The background is pink.",
+    "The black food coloring is put into the white cream in the glass bowl, and a green spatula is stirring the cream.",
+    "There are three bowls of cream on the pink table, one blue, one gray, and one white. A person's hand in a blue glove adds a little food coloring to the white cream.",
+    "A person's hand wearing a blue glove holds a green spatula and stirs cream with purple paint.",
+    "A person's hand wearing a blue glove holds a metal pastry bag tip next to a cup containing a purple cake.",
+    "A person's hand wearing a blue glove puts a metal pastry bag tip into a cup containing a purple cake."
+   ],
+   "sentences_raw": [
+    "The video shows a mixer stirring cream in a white glass bowl. The background is pink.",
+    "The black food coloring is put into the white cream in the glass bowl, and a green spatula is stirring the cream.",
+    "There are three bowls of cream on the pink table, one blue, one gray, and one white. A person's hand in a blue glove adds a little food coloring to the white cream.",
+    "A person's hand wearing a blue glove holds a green spatula and stirs cream with purple paint.",
+    "A person's hand wearing a blue glove holds a metal pastry bag tip next to a cup containing a purple cake.",
+    "A person's hand wearing a blue glove puts a metal pastry bag tip into a cup containing a purple cake."
+   ],
+   "prompt": "A mixer stirring cream in a white glass bowl. The background is pink. The black food coloring is put into the white cream in the glass bowl, and a green spatula is stirring the cream. There are three bowls of cream on the pink table, one blue, one gray, and one white. A person's hand in a blue glove adds a little food coloring to the white cream. A person's hand wearing a blue glove holds a green spatula and stirs cream with purple paint. A person's hand wearing a blue glove holds a metal pastry bag tip next to a cup containing a purple cake. A person's hand wearing a blue glove puts a metal pastry bag tip into a cup containing a purple cake.",
+   "shots": 6,
+   "lengths": [
+    12,
+    6,
+    5,
+    6,
+    6,
+    7
+   ],
+   "frames": 165,
+   "segments": {
+    "165": {
+     "latent_frames": 42,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        12
+       ],
+       "pixel": [
+        0,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        23
+       ],
+       "pixel": [
+        69,
+        89
+       ]
+      },
+      {
+       "latent": [
+        23,
+        29
+       ],
+       "pixel": [
+        89,
+        113
+       ]
+      },
+      {
+       "latent": [
+        29,
+        35
+       ],
+       "pixel": [
+        113,
+        137
+       ]
+      },
+      {
+       "latent": [
+        35,
+        42
+       ],
+       "pixel": [
+        137,
+        165
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Howto & Style)"
+  },
+  {
+   "id": "s2s_hhzOUv4ZGH4.29",
+   "source": "Shot2Story-20K test",
+   "source_id": "hhzOUv4ZGH4.29",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "suitcase",
+   "entities": [],
+   "sentences": [
+    "A man in black short sleeves sits in front of the camera and looks at the camera talking with gestures. Behind him is a computer and a door to another room.",
+    "A suitcase is placed on a black tabletop. A person is putting folded clothes into the suitcase.",
+    "A person walks from the center of the shot to the left and comes back with an extra pair of white shoes in his hand. In front of this person is a table with a suitcase on it. Behind him is a coat rack with various clothes hanging from it.",
+    "A person puts a pair of white shoes into a suitcase on a black tabletop.",
+    "A person takes a plaid shirt from a hanger behind him, places it on a black tabletop in front of him, and folds it up. Then the camera pans out to show a person sorting through the clothes in his suitcase."
+   ],
+   "sentences_raw": [
+    "In the video, a man in black short sleeves sits in front of the camera and looks at the camera talking with gestures. Behind him is a computer and a door to another room.",
+    "In the video, a suitcase is placed on a black tabletop. A person is putting folded clothes into the suitcase.",
+    "In the video, a person walks from the center of the shot to the left and comes back with an extra pair of white shoes in his hand. In front of this person is a table with a suitcase on it. Behind him is a coat rack with various clothes hanging from it.",
+    "In the video, a person puts a pair of white shoes into a suitcase on a black tabletop.",
+    "In the video, a person takes a plaid shirt from a hanger behind him,  places it on a black tabletop in front of him, and folds it up. Then the camera pans out to show a person sorting through the clothes in his suitcase."
+   ],
+   "prompt": "A man in black short sleeves sits in front of the camera and looks at the camera talking with gestures. Behind him is a computer and a door to another room. A suitcase is placed on a black tabletop. A person is putting folded clothes into the suitcase. A person walks from the center of the shot to the left and comes back with an extra pair of white shoes in his hand. In front of this person is a table with a suitcase on it. Behind him is a coat rack with various clothes hanging from it. A person puts a pair of white shoes into a suitcase on a black tabletop. A person takes a plaid shirt from a hanger behind him, places it on a black tabletop in front of him, and folds it up. Then the camera pans out to show a person sorting through the clothes in his suitcase.",
+   "shots": 5,
+   "lengths": [
+    14,
+    6,
+    4,
+    5,
+    6
+   ],
+   "frames": 137,
+   "segments": {
+    "137": {
+     "latent_frames": 35,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        14
+       ],
+       "pixel": [
+        0,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        20
+       ],
+       "pixel": [
+        53,
+        77
+       ]
+      },
+      {
+       "latent": [
+        20,
+        24
+       ],
+       "pixel": [
+        77,
+        93
+       ]
+      },
+      {
+       "latent": [
+        24,
+        29
+       ],
+       "pixel": [
+        93,
+        113
+       ]
+      },
+      {
+       "latent": [
+        29,
+        35
+       ],
+       "pixel": [
+        113,
+        137
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Howto & Style)"
+  },
+  {
+   "id": "s2s_-nLK0mxq1UM.20",
+   "source": "Shot2Story-20K test",
+   "source_id": "-nLK0mxq1UM.20",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "bicycle",
+   "entities": [],
+   "sentences": [
+    "To start, the shot is a close-up shot of the bike from below. The bike has a white and black frame. Then, the camera cuts to a man who rides a bicycle on a road with snow-covered mountains in the background. The man is wearing cycling clothes, gloves, sunglasses, and a helmet, speaking while riding.",
+    "Close-up shot of a bicycle in the snow, with the handlebars and brakes clearly visible.",
+    "Close-up view of a bicycle's handlebars and brake levers, with snow in the background.",
+    "Two men are riding bicycles on a road with snow-covered mountains in the background. The frontman is wearing cycling clothes, gloves, sunglasses, and a helmet, speaking while riding. The behind one wears a red vest. Finally, there is a close-up shot of a bicycle in the snow, with white and black frames."
+   ],
+   "sentences_raw": [
+    "To start, the shot is a close-up shot of the bike from below. The bike has a white and black frame. Then, the camera cuts to a man who rides a bicycle on a road with snow-covered mountains in the background. The man is wearing cycling clothes, gloves, sunglasses, and a helmet, speaking while riding.",
+    "This is a close-up shot of a bicycle in the snow, with the handlebars and brakes clearly visible.",
+    "This is a close-up view of a bicycle's handlebars and brake levers, with snow in the background.",
+    "Two men are riding bicycles on a road with snow-covered mountains in the background. The frontman is wearing cycling clothes, gloves, sunglasses, and a helmet, speaking while riding. The behind one wears a red vest. Finally,  there is a close-up shot of a bicycle in the snow, with white and black frames."
+   ],
+   "prompt": "To start, the shot is a close-up shot of the bike from below. The bike has a white and black frame. Then, the camera cuts to a man who rides a bicycle on a road with snow-covered mountains in the background. The man is wearing cycling clothes, gloves, sunglasses, and a helmet, speaking while riding. Close-up shot of a bicycle in the snow, with the handlebars and brakes clearly visible. Close-up view of a bicycle's handlebars and brake levers, with snow in the background. Two men are riding bicycles on a road with snow-covered mountains in the background. The frontman is wearing cycling clothes, gloves, sunglasses, and a helmet, speaking while riding. The behind one wears a red vest. Finally, there is a close-up shot of a bicycle in the snow, with white and black frames.",
+   "shots": 4,
+   "lengths": [
+    4,
+    9,
+    10,
+    5
+   ],
+   "frames": 109,
+   "segments": {
+    "109": {
+     "latent_frames": 28,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        4
+       ],
+       "pixel": [
+        0,
+        13
+       ]
+      },
+      {
+       "latent": [
+        4,
+        13
+       ],
+       "pixel": [
+        13,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        23
+       ],
+       "pixel": [
+        49,
+        89
+       ]
+      },
+      {
+       "latent": [
+        23,
+        28
+       ],
+       "pixel": [
+        89,
+        109
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Sports)"
+  },
+  {
+   "id": "s2s_WYsAwHSduBA.1",
+   "source": "Shot2Story-20K test",
+   "source_id": "WYsAwHSduBA.1",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "boxer in red shorts",
+   "entities": [],
+   "sentences": [
+    "A man in red shorts with boxing gloves punching another man across from him.",
+    "A man in yellow shorts with boxing gloves being punched in the face by another man in red shorts across from him.",
+    "A man in red shorts with boxing gloves punching another man in yellow shorts across from him first in the stomach and then in the face.",
+    "A person in blue gloves touching a man with extra redness and swelling on his face, while another person next to him is removing something from the man's mouth."
+   ],
+   "sentences_raw": [
+    "The video shows a man in red shorts with boxing gloves punching another man across from him.",
+    "The video shows a man in yellow shorts with boxing gloves being punched in the face by another man in red shorts across from him.",
+    "The video shows a man in red shorts with boxing gloves punching another man in yellow shorts across from him first in the stomach and then in the face.",
+    "The video shows a person in blue gloves touching a man with extra redness and swelling on his face, while another person next to him is removing something from the man‘s mouth."
+   ],
+   "prompt": "A man in red shorts with boxing gloves punching another man across from him. A man in yellow shorts with boxing gloves being punched in the face by another man in red shorts across from him. A man in red shorts with boxing gloves punching another man in yellow shorts across from him first in the stomach and then in the face. A person in blue gloves touching a man with extra redness and swelling on his face, while another person next to him is removing something from the man's mouth.",
+   "shots": 4,
+   "lengths": [
+    5,
+    5,
+    12,
+    6
+   ],
+   "frames": 109,
+   "segments": {
+    "109": {
+     "latent_frames": 28,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        5
+       ],
+       "pixel": [
+        0,
+        17
+       ]
+      },
+      {
+       "latent": [
+        5,
+        10
+       ],
+       "pixel": [
+        17,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        22
+       ],
+       "pixel": [
+        37,
+        85
+       ]
+      },
+      {
+       "latent": [
+        22,
+        28
+       ],
+       "pixel": [
+        85,
+        109
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Entertainment)"
+  },
+  {
+   "id": "s2s_HcT3uyNtPUE.41",
+   "source": "Shot2Story-20K test",
+   "source_id": "HcT3uyNtPUE.41",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "toy car",
+   "entities": [],
+   "sentences": [
+    "A blue toy car advancing over moss-covered rocks. There is also a red toy buggy behind it. There are lots of trees in the background.",
+    "There is a blue toy car parked on a rocky terrain with moss on the ground. This car has two eyes rolling.",
+    "A red toy car going over moss-covered rocks. There are lots of trees in the background."
+   ],
+   "sentences_raw": [
+    "The video shows a blue toy car advancing over moss-covered rocks. There is also a red toy buggy behind it. There are lots of trees in the background.",
+    "In the video, there is a blue toy car parked on a rocky terrain with moss on the ground. This car has two eyes rolling.",
+    "The video shows a red toy car going over moss-covered rocks. There are lots of trees in the background."
+   ],
+   "prompt": "A blue toy car advancing over moss-covered rocks. There is also a red toy buggy behind it. There are lots of trees in the background. There is a blue toy car parked on a rocky terrain with moss on the ground. This car has two eyes rolling. A red toy car going over moss-covered rocks. There are lots of trees in the background.",
+   "shots": 3,
+   "lengths": [
+    13,
+    3,
+    6
+   ],
+   "frames": 85,
+   "segments": {
+    "85": {
+     "latent_frames": 22,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        13
+       ],
+       "pixel": [
+        0,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        16
+       ],
+       "pixel": [
+        49,
+        61
+       ]
+      },
+      {
+       "latent": [
+        16,
+        22
+       ],
+       "pixel": [
+        61,
+        85
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Entertainment)"
+  },
+  {
+   "id": "s2s_EBpdXNCqpfs.40",
+   "source": "Shot2Story-20K test",
+   "source_id": "EBpdXNCqpfs.40",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "firework",
+   "entities": [],
+   "sentences": [
+    "A person is holding a box in her hand in the dark. Then she puts it down. There are some fireworks in the background.",
+    "A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background.",
+    "A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background.",
+    "A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background."
+   ],
+   "sentences_raw": [
+    "A person is holding a box in her hand in the dark. Then she puts it down. There are some fireworks in the background.",
+    "A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background.",
+    "A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background.",
+    "A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background."
+   ],
+   "prompt": "A person is holding a box in her hand in the dark. Then she puts it down. There are some fireworks in the background. A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background. A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background. A young man is holding a burning firework in the dark. There is a pool in the background and a fence surrounding it. There are some trees in the background.",
+   "shots": 4,
+   "lengths": [
+    4,
+    7,
+    12,
+    5
+   ],
+   "frames": 109,
+   "segments": {
+    "109": {
+     "latent_frames": 28,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        4
+       ],
+       "pixel": [
+        0,
+        13
+       ]
+      },
+      {
+       "latent": [
+        4,
+        11
+       ],
+       "pixel": [
+        13,
+        41
+       ]
+      },
+      {
+       "latent": [
+        11,
+        23
+       ],
+       "pixel": [
+        41,
+        89
+       ]
+      },
+      {
+       "latent": [
+        23,
+        28
+       ],
+       "pixel": [
+        89,
+        109
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (People & Blogs)"
+  },
+  {
+   "id": "s2s_cs5bFI9nHlM.22",
+   "source": "Shot2Story-20K test",
+   "source_id": "cs5bFI9nHlM.22",
+   "license": "CC BY-NC-SA 4.0",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "race car",
+   "entities": [],
+   "sentences": [
+    "Lots of fast cars are speeding around the track and flashing past the camera. Then, the camera turns to a high view of a large stadium parked with many cars around it.",
+    "A car is driving ahead on a track with other cars in the background.",
+    "Close-up shot of a group of cars racing on a track."
+   ],
+   "sentences_raw": [
+    "Lots of fast cars are speeding around the track and flashing past the camera. Then, the camera turns to a high view of a large stadium parked with many cars around it.",
+    "A car is driving ahead on a track with other cars in the background.",
+    "This is a close-up shot of a group of cars racing on a track."
+   ],
+   "prompt": "Lots of fast cars are speeding around the track and flashing past the camera. Then, the camera turns to a high view of a large stadium parked with many cars around it. A car is driving ahead on a track with other cars in the background. Close-up shot of a group of cars racing on a track.",
+   "shots": 3,
+   "lengths": [
+    8,
+    7,
+    6
+   ],
+   "frames": 81,
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        8
+       ],
+       "pixel": [
+        0,
+        29
+       ]
+      },
+      {
+       "latent": [
+        8,
+        15
+       ],
+       "pixel": [
+        29,
+        57
+       ]
+      },
+      {
+       "latent": [
+        15,
+        21
+       ],
+       "pixel": [
+        57,
+        81
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "Shot2Story shot frames (Sports)"
+  },
+  {
+   "id": "ours_C01",
+   "source": "ours",
+   "source_id": "C01",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "flashback",
+   "subject": "fisherman",
+   "entities": [
+    {
+     "name": "old",
+     "description": "an old fisherman with a white beard, a deeply weathered face and a yellow raincoat"
+    },
+    {
+     "name": "young",
+     "description": "a young fisherman with short black hair, a clean-shaven face and a yellow raincoat"
+    }
+   ],
+   "sentences": [
+    "An old fisherman with a white beard, a deeply weathered face and a yellow raincoat mends a fishing net on a wooden dock at dusk, the harbor lights coming on behind him.",
+    "A young fisherman with short black hair, a clean-shaven face and a yellow raincoat hauls a heavy net onto a small wooden boat on the open sea in bright morning sun.",
+    "A young fisherman with short black hair, a clean-shaven face and a yellow raincoat laughs and holds up a large silver fish on the deck of the small wooden boat.",
+    "An old fisherman with a white beard, a deeply weathered face and a yellow raincoat sets down the net and looks out over the sea from the wooden dock at dusk, smiling quietly."
+   ],
+   "sentences_raw": null,
+   "prompt": "An old fisherman with a white beard, a deeply weathered face and a yellow raincoat mends a fishing net on a wooden dock at dusk, the harbor lights coming on behind him. A young fisherman with short black hair, a clean-shaven face and a yellow raincoat hauls a heavy net onto a small wooden boat on the open sea in bright morning sun. A young fisherman with short black hair, a clean-shaven face and a yellow raincoat laughs and holds up a large silver fish on the deck of the small wooden boat. An old fisherman with a white beard, a deeply weathered face and a yellow raincoat sets down the net and looks out over the sea from the wooden dock at dusk, smiling quietly.",
+   "shots": 4,
+   "lengths": [
+    7,
+    5,
+    6,
+    3
+   ],
+   "frames": 81,
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        12
+       ],
+       "pixel": [
+        25,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        18
+       ],
+       "pixel": [
+        45,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        21
+       ],
+       "pixel": [
+        69,
+        81
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C02",
+   "source": "ours",
+   "source_id": "C02",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "crosscut",
+   "subject": "chef and courier",
+   "entities": [
+    {
+     "name": "chef",
+     "description": "a chef with a shaved head, a thin black mustache and a white double-breasted jacket"
+    },
+    {
+     "name": "courier",
+     "description": "a young courier with curly red hair, a green rain jacket and a large orange delivery backpack"
+    }
+   ],
+   "sentences": [
+    "A chef with a shaved head, a thin black mustache and a white double-breasted jacket tosses noodles in a flaming wok in a busy restaurant kitchen.",
+    "A young courier with curly red hair, a green rain jacket and a large orange delivery backpack pedals a bicycle through a rainy city street at night, headlights reflecting on the wet road.",
+    "A chef with a shaved head, a thin black mustache and a white double-breasted jacket packs the noodles into a paper box and seals it at the kitchen pass.",
+    "A young courier with curly red hair, a green rain jacket and a large orange delivery backpack stops the bicycle at the back door of the restaurant and wipes rain from her face.",
+    "A chef with a shaved head, a thin black mustache and a white double-breasted jacket hands the paper box to a young courier with curly red hair, a green rain jacket and a large orange delivery backpack at the back door of the restaurant, both nodding.",
+    "A young courier with curly red hair, a green rain jacket and a large orange delivery backpack rides away into the rainy night with the box in the orange backpack."
+   ],
+   "sentences_raw": null,
+   "prompt": "A chef with a shaved head, a thin black mustache and a white double-breasted jacket tosses noodles in a flaming wok in a busy restaurant kitchen. A young courier with curly red hair, a green rain jacket and a large orange delivery backpack pedals a bicycle through a rainy city street at night, headlights reflecting on the wet road. A chef with a shaved head, a thin black mustache and a white double-breasted jacket packs the noodles into a paper box and seals it at the kitchen pass. A young courier with curly red hair, a green rain jacket and a large orange delivery backpack stops the bicycle at the back door of the restaurant and wipes rain from her face. A chef with a shaved head, a thin black mustache and a white double-breasted jacket hands the paper box to a young courier with curly red hair, a green rain jacket and a large orange delivery backpack at the back door of the restaurant, both nodding. A young courier with curly red hair, a green rain jacket and a large orange delivery backpack rides away into the rainy night with the box in the orange backpack.",
+   "shots": 6,
+   "lengths": [
+    10,
+    6,
+    6,
+    8,
+    4,
+    10
+   ],
+   "frames": 173,
+   "segments": {
+    "173": {
+     "latent_frames": 44,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        16
+       ],
+       "pixel": [
+        37,
+        61
+       ]
+      },
+      {
+       "latent": [
+        16,
+        22
+       ],
+       "pixel": [
+        61,
+        85
+       ]
+      },
+      {
+       "latent": [
+        22,
+        30
+       ],
+       "pixel": [
+        85,
+        117
+       ]
+      },
+      {
+       "latent": [
+        30,
+        34
+       ],
+       "pixel": [
+        117,
+        133
+       ]
+      },
+      {
+       "latent": [
+        34,
+        44
+       ],
+       "pixel": [
+        133,
+        173
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C03",
+   "source": "ours",
+   "source_id": "C03",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "recurring object",
+   "subject": "red umbrella",
+   "entities": [
+    {
+     "name": "umbrella",
+     "description": "a vintage red umbrella with a curved carved wooden handle"
+    },
+    {
+     "name": "woman",
+     "description": "a woman with a grey wool coat and a short blonde bob"
+    },
+    {
+     "name": "boy",
+     "description": "a small boy with a blue school uniform and a yellow backpack"
+    }
+   ],
+   "sentences": [
+    "A woman with a grey wool coat and a short blonde bob shakes rain off a vintage red umbrella with a curved carved wooden handle on a crowded train platform.",
+    "A vintage red umbrella with a curved carved wooden handle lies forgotten on a wooden bench of the empty train platform after the train leaves.",
+    "A small boy with a blue school uniform and a yellow backpack picks up a vintage red umbrella with a curved carved wooden handle from the wooden bench and looks around for its owner.",
+    "A small boy with a blue school uniform and a yellow backpack walks through heavy rain to a school gate holding a vintage red umbrella with a curved carved wooden handle over his head.",
+    "A small boy with a blue school uniform and a yellow backpack hands a vintage red umbrella with a curved carved wooden handle back to a woman with a grey wool coat and a short blonde bob outside the school gate, and she smiles."
+   ],
+   "sentences_raw": null,
+   "prompt": "A woman with a grey wool coat and a short blonde bob shakes rain off a vintage red umbrella with a curved carved wooden handle on a crowded train platform. A vintage red umbrella with a curved carved wooden handle lies forgotten on a wooden bench of the empty train platform after the train leaves. A small boy with a blue school uniform and a yellow backpack picks up a vintage red umbrella with a curved carved wooden handle from the wooden bench and looks around for its owner. A small boy with a blue school uniform and a yellow backpack walks through heavy rain to a school gate holding a vintage red umbrella with a curved carved wooden handle over his head. A small boy with a blue school uniform and a yellow backpack hands a vintage red umbrella with a curved carved wooden handle back to a woman with a grey wool coat and a short blonde bob outside the school gate, and she smiles.",
+   "shots": 5,
+   "lengths": [
+    6,
+    8,
+    8,
+    9,
+    8
+   ],
+   "frames": 153,
+   "segments": {
+    "153": {
+     "latent_frames": 39,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        14
+       ],
+       "pixel": [
+        21,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        22
+       ],
+       "pixel": [
+        53,
+        85
+       ]
+      },
+      {
+       "latent": [
+        22,
+        31
+       ],
+       "pixel": [
+        85,
+        121
+       ]
+      },
+      {
+       "latent": [
+        31,
+        39
+       ],
+       "pixel": [
+        121,
+        153
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C04",
+   "source": "ours",
+   "source_id": "C04",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "returning location",
+   "subject": "cafe owner",
+   "entities": [
+    {
+     "name": "owner",
+     "description": "a café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron"
+    }
+   ],
+   "sentences": [
+    "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron unlocks the glass door of a small corner café at sunrise and switches on the lights.",
+    "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron grinds coffee beans behind the wooden counter of the empty café in the morning.",
+    "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron carries two cups to a crowded window table in the busy café at noon.",
+    "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron laughs with customers at the wooden counter of the crowded café at noon.",
+    "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron wipes the empty window table of the café at night under a single warm lamp.",
+    "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron turns the sign on the glass door to closed and locks the café at night."
+   ],
+   "sentences_raw": null,
+   "prompt": "A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron unlocks the glass door of a small corner café at sunrise and switches on the lights. A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron grinds coffee beans behind the wooden counter of the empty café in the morning. A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron carries two cups to a crowded window table in the busy café at noon. A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron laughs with customers at the wooden counter of the crowded café at noon. A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron wipes the empty window table of the café at night under a single warm lamp. A café owner with a grey bun, round tortoiseshell glasses and a mustard-yellow apron turns the sign on the glass door to closed and locks the café at night.",
+   "shots": 6,
+   "lengths": [
+    7,
+    8,
+    7,
+    7,
+    9,
+    10
+   ],
+   "frames": 189,
+   "segments": {
+    "189": {
+     "latent_frames": 48,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        15
+       ],
+       "pixel": [
+        25,
+        57
+       ]
+      },
+      {
+       "latent": [
+        15,
+        22
+       ],
+       "pixel": [
+        57,
+        85
+       ]
+      },
+      {
+       "latent": [
+        22,
+        29
+       ],
+       "pixel": [
+        85,
+        113
+       ]
+      },
+      {
+       "latent": [
+        29,
+        38
+       ],
+       "pixel": [
+        113,
+        149
+       ]
+      },
+      {
+       "latent": [
+        38,
+        48
+       ],
+       "pixel": [
+        149,
+        189
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C05",
+   "source": "ours",
+   "source_id": "C05",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "converge",
+   "subject": "detective and informant",
+   "entities": [
+    {
+     "name": "detective",
+     "description": "a tall detective with a long beige trench coat, a grey fedora and a thick moustache"
+    },
+    {
+     "name": "informant",
+     "description": "a nervous young man with a shaved head, round glasses and a black leather jacket"
+    }
+   ],
+   "sentences": [
+    "A tall detective with a long beige trench coat, a grey fedora and a thick moustache reads a crumpled note under a streetlight on a foggy street at night.",
+    "A nervous young man with a shaved head, round glasses and a black leather jacket glances over his shoulder while hurrying through a narrow alley at night.",
+    "A tall detective with a long beige trench coat, a grey fedora and a thick moustache enters a dim jazz bar and sits in a red leather booth.",
+    "A nervous young man with a shaved head, round glasses and a black leather jacket pushes open the door of the dim jazz bar and scans the room.",
+    "A nervous young man with a shaved head, round glasses and a black leather jacket slides into the red leather booth across from a tall detective with a long beige trench coat, a grey fedora and a thick moustache.",
+    "A nervous young man with a shaved head, round glasses and a black leather jacket passes a small envelope across the table to a tall detective with a long beige trench coat, a grey fedora and a thick moustache, who tucks it into his coat."
+   ],
+   "sentences_raw": null,
+   "prompt": "A tall detective with a long beige trench coat, a grey fedora and a thick moustache reads a crumpled note under a streetlight on a foggy street at night. A nervous young man with a shaved head, round glasses and a black leather jacket glances over his shoulder while hurrying through a narrow alley at night. A tall detective with a long beige trench coat, a grey fedora and a thick moustache enters a dim jazz bar and sits in a red leather booth. A nervous young man with a shaved head, round glasses and a black leather jacket pushes open the door of the dim jazz bar and scans the room. A nervous young man with a shaved head, round glasses and a black leather jacket slides into the red leather booth across from a tall detective with a long beige trench coat, a grey fedora and a thick moustache. A nervous young man with a shaved head, round glasses and a black leather jacket passes a small envelope across the table to a tall detective with a long beige trench coat, a grey fedora and a thick moustache, who tucks it into his coat.",
+   "shots": 6,
+   "lengths": [
+    9,
+    7,
+    3,
+    3,
+    7,
+    7
+   ],
+   "frames": 141,
+   "segments": {
+    "141": {
+     "latent_frames": 36,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        9
+       ],
+       "pixel": [
+        0,
+        33
+       ]
+      },
+      {
+       "latent": [
+        9,
+        16
+       ],
+       "pixel": [
+        33,
+        61
+       ]
+      },
+      {
+       "latent": [
+        16,
+        19
+       ],
+       "pixel": [
+        61,
+        73
+       ]
+      },
+      {
+       "latent": [
+        19,
+        22
+       ],
+       "pixel": [
+        73,
+        85
+       ]
+      },
+      {
+       "latent": [
+        22,
+        29
+       ],
+       "pixel": [
+        85,
+        113
+       ]
+      },
+      {
+       "latent": [
+        29,
+        36
+       ],
+       "pixel": [
+        113,
+        141
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C06",
+   "source": "ours",
+   "source_id": "C06",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "one character many places",
+   "subject": "traveler",
+   "entities": [
+    {
+     "name": "traveler",
+     "description": "a woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket"
+    }
+   ],
+   "sentences": [
+    "A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket walks across golden sand dunes under a blazing sun.",
+    "A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket climbs a blue glacier with an ice axe in a snowstorm.",
+    "A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket pushes through giant green leaves in a humid jungle.",
+    "A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket stands on a rocky mountain summit above the clouds at sunrise.",
+    "A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket sits by a small campfire under a starry sky, writing in a notebook."
+   ],
+   "sentences_raw": null,
+   "prompt": "A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket walks across golden sand dunes under a blazing sun. A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket climbs a blue glacier with an ice axe in a snowstorm. A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket pushes through giant green leaves in a humid jungle. A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket stands on a rocky mountain summit above the clouds at sunrise. A woman with a long silver braid, a small scar over her left eyebrow and a teal hooded jacket sits by a small campfire under a starry sky, writing in a notebook.",
+   "shots": 5,
+   "lengths": [
+    7,
+    8,
+    6,
+    3,
+    6
+   ],
+   "frames": 117,
+   "segments": {
+    "117": {
+     "latent_frames": 30,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        15
+       ],
+       "pixel": [
+        25,
+        57
+       ]
+      },
+      {
+       "latent": [
+        15,
+        21
+       ],
+       "pixel": [
+        57,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        24
+       ],
+       "pixel": [
+        81,
+        93
+       ]
+      },
+      {
+       "latent": [
+        24,
+        30
+       ],
+       "pixel": [
+        93,
+        117
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C07",
+   "source": "ours",
+   "source_id": "C07",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "shot reverse shot",
+   "subject": "chess players",
+   "entities": [
+    {
+     "name": "old",
+     "description": "an old man with a white goatee, a brown flat cap and a green cardigan"
+    },
+    {
+     "name": "girl",
+     "description": "a girl of about ten with two black pigtails, freckles and a red sweater"
+    }
+   ],
+   "sentences": [
+    "An old man with a white goatee, a brown flat cap and a green cardigan and a girl of about ten with two black pigtails, freckles and a red sweater sit across a wooden chessboard on a park table in autumn.",
+    "An old man with a white goatee, a brown flat cap and a green cardigan strokes his goatee and studies the chessboard on the park table.",
+    "A girl of about ten with two black pigtails, freckles and a red sweater bites her lip and moves a white knight on the chessboard.",
+    "An old man with a white goatee, a brown flat cap and a green cardigan raises his eyebrows in surprise at the chessboard.",
+    "A girl of about ten with two black pigtails, freckles and a red sweater grins and folds her arms at the park table.",
+    "An old man with a white goatee, a brown flat cap and a green cardigan laughs and shakes hands with a girl of about ten with two black pigtails, freckles and a red sweater across the chessboard as leaves fall."
+   ],
+   "sentences_raw": null,
+   "prompt": "An old man with a white goatee, a brown flat cap and a green cardigan and a girl of about ten with two black pigtails, freckles and a red sweater sit across a wooden chessboard on a park table in autumn. An old man with a white goatee, a brown flat cap and a green cardigan strokes his goatee and studies the chessboard on the park table. A girl of about ten with two black pigtails, freckles and a red sweater bites her lip and moves a white knight on the chessboard. An old man with a white goatee, a brown flat cap and a green cardigan raises his eyebrows in surprise at the chessboard. A girl of about ten with two black pigtails, freckles and a red sweater grins and folds her arms at the park table. An old man with a white goatee, a brown flat cap and a green cardigan laughs and shakes hands with a girl of about ten with two black pigtails, freckles and a red sweater across the chessboard as leaves fall.",
+   "shots": 6,
+   "lengths": [
+    7,
+    8,
+    7,
+    7,
+    9,
+    8
+   ],
+   "frames": 181,
+   "segments": {
+    "181": {
+     "latent_frames": 46,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        15
+       ],
+       "pixel": [
+        25,
+        57
+       ]
+      },
+      {
+       "latent": [
+        15,
+        22
+       ],
+       "pixel": [
+        57,
+        85
+       ]
+      },
+      {
+       "latent": [
+        22,
+        29
+       ],
+       "pixel": [
+        85,
+        113
+       ]
+      },
+      {
+       "latent": [
+        29,
+        38
+       ],
+       "pixel": [
+        113,
+        149
+       ]
+      },
+      {
+       "latent": [
+        38,
+        46
+       ],
+       "pixel": [
+        149,
+        181
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C08",
+   "source": "ours",
+   "source_id": "C08",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "pet and owner",
+   "subject": "terrier and owner",
+   "entities": [
+    {
+     "name": "dog",
+     "description": "a small white terrier with one black ear and a red bandana"
+    },
+    {
+     "name": "owner",
+     "description": "a young man with dreadlocks, a mustard corduroy jacket and white sneakers"
+    }
+   ],
+   "sentences": [
+    "A small white terrier with one black ear and a red bandana waits by the front door of an apartment, wagging its tail.",
+    "A young man with dreadlocks, a mustard corduroy jacket and white sneakers clips a leash onto a small white terrier with one black ear and a red bandana in the apartment hallway.",
+    "A young man with dreadlocks, a mustard corduroy jacket and white sneakers walks a small white terrier with one black ear and a red bandana along a tree-lined street in the morning.",
+    "A small white terrier with one black ear and a red bandana chases a tennis ball across the green grass of a city park.",
+    "A young man with dreadlocks, a mustard corduroy jacket and white sneakers sits on a park bench while a small white terrier with one black ear and a red bandana drops the tennis ball at his feet.",
+    "A young man with dreadlocks, a mustard corduroy jacket and white sneakers and a small white terrier with one black ear and a red bandana walk back into the apartment building at sunset."
+   ],
+   "sentences_raw": null,
+   "prompt": "A small white terrier with one black ear and a red bandana waits by the front door of an apartment, wagging its tail. A young man with dreadlocks, a mustard corduroy jacket and white sneakers clips a leash onto a small white terrier with one black ear and a red bandana in the apartment hallway. A young man with dreadlocks, a mustard corduroy jacket and white sneakers walks a small white terrier with one black ear and a red bandana along a tree-lined street in the morning. A small white terrier with one black ear and a red bandana chases a tennis ball across the green grass of a city park. A young man with dreadlocks, a mustard corduroy jacket and white sneakers sits on a park bench while a small white terrier with one black ear and a red bandana drops the tennis ball at his feet. A young man with dreadlocks, a mustard corduroy jacket and white sneakers and a small white terrier with one black ear and a red bandana walk back into the apartment building at sunset.",
+   "shots": 6,
+   "lengths": [
+    8,
+    9,
+    7,
+    6,
+    9,
+    8
+   ],
+   "frames": 185,
+   "segments": {
+    "185": {
+     "latent_frames": 47,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        8
+       ],
+       "pixel": [
+        0,
+        29
+       ]
+      },
+      {
+       "latent": [
+        8,
+        17
+       ],
+       "pixel": [
+        29,
+        65
+       ]
+      },
+      {
+       "latent": [
+        17,
+        24
+       ],
+       "pixel": [
+        65,
+        93
+       ]
+      },
+      {
+       "latent": [
+        24,
+        30
+       ],
+       "pixel": [
+        93,
+        117
+       ]
+      },
+      {
+       "latent": [
+        30,
+        39
+       ],
+       "pixel": [
+        117,
+        153
+       ]
+      },
+      {
+       "latent": [
+        39,
+        47
+       ],
+       "pixel": [
+        153,
+        185
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C09",
+   "source": "ours",
+   "source_id": "C09",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "setting returns",
+   "subject": "violinist",
+   "entities": [
+    {
+     "name": "violinist",
+     "description": "a young violinist with a black beret, long auburn hair and a long navy coat"
+    }
+   ],
+   "sentences": [
+    "A young violinist with a black beret, long auburn hair and a long navy coat plays the violin in a busy subway station as commuters rush past.",
+    "A young violinist with a black beret, long auburn hair and a long navy coat packs the violin into its case on the subway platform.",
+    "A young violinist with a black beret, long auburn hair and a long navy coat plays the violin alone on a city rooftop at sunset.",
+    "A young violinist with a black beret, long auburn hair and a long navy coat returns to the busy subway station and opens the violin case on the floor.",
+    "A young violinist with a black beret, long auburn hair and a long navy coat plays again in the subway station while a crowd gathers around her."
+   ],
+   "sentences_raw": null,
+   "prompt": "A young violinist with a black beret, long auburn hair and a long navy coat plays the violin in a busy subway station as commuters rush past. A young violinist with a black beret, long auburn hair and a long navy coat packs the violin into its case on the subway platform. A young violinist with a black beret, long auburn hair and a long navy coat plays the violin alone on a city rooftop at sunset. A young violinist with a black beret, long auburn hair and a long navy coat returns to the busy subway station and opens the violin case on the floor. A young violinist with a black beret, long auburn hair and a long navy coat plays again in the subway station while a crowd gathers around her.",
+   "shots": 5,
+   "lengths": [
+    7,
+    4,
+    10,
+    12,
+    9
+   ],
+   "frames": 165,
+   "segments": {
+    "165": {
+     "latent_frames": 42,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        11
+       ],
+       "pixel": [
+        25,
+        41
+       ]
+      },
+      {
+       "latent": [
+        11,
+        21
+       ],
+       "pixel": [
+        41,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        33
+       ],
+       "pixel": [
+        81,
+        129
+       ]
+      },
+      {
+       "latent": [
+        33,
+        42
+       ],
+       "pixel": [
+        129,
+        165
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_C10",
+   "source": "ours",
+   "source_id": "C10",
+   "license": "CC BY 4.0 (this work)",
+   "category": "consistency",
+   "pattern": "group",
+   "subject": "three friends",
+   "entities": [
+    {
+     "name": "driver",
+     "description": "a man with a red beard and a green beanie"
+    },
+    {
+     "name": "map",
+     "description": "a woman with short pink hair and a denim jacket"
+    },
+    {
+     "name": "guitar",
+     "description": "a tall man with a black afro and a yellow hoodie"
+    }
+   ],
+   "sentences": [
+    "A man with a red beard and a green beanie, a woman with short pink hair and a denim jacket and a tall man with a black afro and a yellow hoodie ride in an old blue camper van along a coastal highway.",
+    "A woman with short pink hair and a denim jacket studies a paper map in the passenger seat of the blue camper van.",
+    "A man with a red beard and a green beanie fills the blue camper van with fuel at a desert gas station.",
+    "A tall man with a black afro and a yellow hoodie plays a guitar on the roof of the blue camper van at the gas station.",
+    "A man with a red beard and a green beanie, a woman with short pink hair and a denim jacket and a tall man with a black afro and a yellow hoodie run across a beach towards the waves at sunset.",
+    "A man with a red beard and a green beanie, a woman with short pink hair and a denim jacket and a tall man with a black afro and a yellow hoodie sit around a bonfire on the beach at night."
+   ],
+   "sentences_raw": null,
+   "prompt": "A man with a red beard and a green beanie, a woman with short pink hair and a denim jacket and a tall man with a black afro and a yellow hoodie ride in an old blue camper van along a coastal highway. A woman with short pink hair and a denim jacket studies a paper map in the passenger seat of the blue camper van. A man with a red beard and a green beanie fills the blue camper van with fuel at a desert gas station. A tall man with a black afro and a yellow hoodie plays a guitar on the roof of the blue camper van at the gas station. A man with a red beard and a green beanie, a woman with short pink hair and a denim jacket and a tall man with a black afro and a yellow hoodie run across a beach towards the waves at sunset. A man with a red beard and a green beanie, a woman with short pink hair and a denim jacket and a tall man with a black afro and a yellow hoodie sit around a bonfire on the beach at night.",
+   "shots": 6,
+   "lengths": [
+    6,
+    12,
+    6,
+    7,
+    8,
+    9
+   ],
+   "frames": 189,
+   "segments": {
+    "189": {
+     "latent_frames": 48,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        18
+       ],
+       "pixel": [
+        21,
+        69
+       ]
+      },
+      {
+       "latent": [
+        18,
+        24
+       ],
+       "pixel": [
+        69,
+        93
+       ]
+      },
+      {
+       "latent": [
+        24,
+        31
+       ],
+       "pixel": [
+        93,
+        121
+       ]
+      },
+      {
+       "latent": [
+        31,
+        39
+       ],
+       "pixel": [
+        121,
+        153
+       ]
+      },
+      {
+       "latent": [
+        39,
+        48
+       ],
+       "pixel": [
+        153,
+        189
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S01",
+   "source": "ours",
+   "source_id": "S01",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "potter",
+   "entities": [
+    {
+     "name": "potter",
+     "description": "a potter with grey dreadlocks tied back and a clay-stained denim apron"
+    }
+   ],
+   "sentences": [
+    "A potter with grey dreadlocks tied back and a clay-stained denim apron slaps a lump of wet clay onto a spinning potter's wheel in a sunlit studio.",
+    "A potter with grey dreadlocks tied back and a clay-stained denim apron presses both thumbs into the spinning clay to open a bowl.",
+    "A potter with grey dreadlocks tied back and a clay-stained denim apron pulls up the wet walls of the bowl between her fingers.",
+    "A potter with grey dreadlocks tied back and a clay-stained denim apron smooths the rim of the finished bowl with a wet sponge as the wheel slows down."
+   ],
+   "sentences_raw": null,
+   "prompt": "A potter with grey dreadlocks tied back and a clay-stained denim apron slaps a lump of wet clay onto a spinning potter's wheel in a sunlit studio. A potter with grey dreadlocks tied back and a clay-stained denim apron presses both thumbs into the spinning clay to open a bowl. A potter with grey dreadlocks tied back and a clay-stained denim apron pulls up the wet walls of the bowl between her fingers. A potter with grey dreadlocks tied back and a clay-stained denim apron smooths the rim of the finished bowl with a wet sponge as the wheel slows down.",
+   "shots": 4,
+   "lengths": [
+    7,
+    5,
+    7,
+    9
+   ],
+   "frames": 109,
+   "segments": {
+    "109": {
+     "latent_frames": 28,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        12
+       ],
+       "pixel": [
+        25,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        19
+       ],
+       "pixel": [
+        45,
+        73
+       ]
+      },
+      {
+       "latent": [
+        19,
+        28
+       ],
+       "pixel": [
+        73,
+        109
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S02",
+   "source": "ours",
+   "source_id": "S02",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "surfer",
+   "entities": [
+    {
+     "name": "surfer",
+     "description": "a surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe"
+    }
+   ],
+   "sentences": [
+    "A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe paddles a white surfboard out through small waves at sunrise.",
+    "A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe turns the board and paddles hard as a large wave rises behind him.",
+    "A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe pops up and rides along the face of the large wave.",
+    "A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe glides out of the breaking wave and raises a fist."
+   ],
+   "sentences_raw": null,
+   "prompt": "A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe paddles a white surfboard out through small waves at sunrise. A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe turns the board and paddles hard as a large wave rises behind him. A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe pops up and rides along the face of the large wave. A surfer with sun-bleached shoulder-length hair and a black wetsuit with a red stripe glides out of the breaking wave and raises a fist.",
+   "shots": 4,
+   "lengths": [
+    10,
+    3,
+    10,
+    9
+   ],
+   "frames": 125,
+   "segments": {
+    "125": {
+     "latent_frames": 32,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        10
+       ],
+       "pixel": [
+        0,
+        37
+       ]
+      },
+      {
+       "latent": [
+        10,
+        13
+       ],
+       "pixel": [
+        37,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        23
+       ],
+       "pixel": [
+        49,
+        89
+       ]
+      },
+      {
+       "latent": [
+        23,
+        32
+       ],
+       "pixel": [
+        89,
+        125
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S03",
+   "source": "ours",
+   "source_id": "S03",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "girl",
+   "entities": [
+    {
+     "name": "girl",
+     "description": "a little girl with curly black hair, a yellow sun hat and a striped swimsuit"
+    }
+   ],
+   "sentences": [
+    "A little girl with curly black hair, a yellow sun hat and a striped swimsuit fills a red bucket with wet sand on a sunny beach.",
+    "A little girl with curly black hair, a yellow sun hat and a striped swimsuit flips the red bucket over and lifts it to reveal a sand tower.",
+    "A little girl with curly black hair, a yellow sun hat and a striped swimsuit decorates the sand castle with small white shells.",
+    "A little girl with curly black hair, a yellow sun hat and a striped swimsuit claps her hands next to the finished sand castle as a small wave reaches it."
+   ],
+   "sentences_raw": null,
+   "prompt": "A little girl with curly black hair, a yellow sun hat and a striped swimsuit fills a red bucket with wet sand on a sunny beach. A little girl with curly black hair, a yellow sun hat and a striped swimsuit flips the red bucket over and lifts it to reveal a sand tower. A little girl with curly black hair, a yellow sun hat and a striped swimsuit decorates the sand castle with small white shells. A little girl with curly black hair, a yellow sun hat and a striped swimsuit claps her hands next to the finished sand castle as a small wave reaches it.",
+   "shots": 4,
+   "lengths": [
+    6,
+    10,
+    7,
+    12
+   ],
+   "frames": 137,
+   "segments": {
+    "137": {
+     "latent_frames": 35,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        16
+       ],
+       "pixel": [
+        21,
+        61
+       ]
+      },
+      {
+       "latent": [
+        16,
+        23
+       ],
+       "pixel": [
+        61,
+        89
+       ]
+      },
+      {
+       "latent": [
+        23,
+        35
+       ],
+       "pixel": [
+        89,
+        137
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S04",
+   "source": "ours",
+   "source_id": "S04",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "baker",
+   "entities": [
+    {
+     "name": "baker",
+     "description": "a baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron"
+    }
+   ],
+   "sentences": [
+    "A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron kneads a large ball of dough on a floured wooden table in a small bakery.",
+    "A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron shapes the dough into three round loaves on the wooden table.",
+    "A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron slashes the tops of the loaves with a small blade.",
+    "A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron slides the loaves into a glowing brick oven with a long wooden peel.",
+    "A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron pulls golden crusty loaves out of the brick oven and smiles."
+   ],
+   "sentences_raw": null,
+   "prompt": "A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron kneads a large ball of dough on a floured wooden table in a small bakery. A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron shapes the dough into three round loaves on the wooden table. A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron slashes the tops of the loaves with a small blade. A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron slides the loaves into a glowing brick oven with a long wooden peel. A baker with a round face, flour-dusted forearms, a white cap and a blue checkered apron pulls golden crusty loaves out of the brick oven and smiles.",
+   "shots": 5,
+   "lengths": [
+    7,
+    10,
+    6,
+    4,
+    6
+   ],
+   "frames": 129,
+   "segments": {
+    "129": {
+     "latent_frames": 33,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        17
+       ],
+       "pixel": [
+        25,
+        65
+       ]
+      },
+      {
+       "latent": [
+        17,
+        23
+       ],
+       "pixel": [
+        65,
+        89
+       ]
+      },
+      {
+       "latent": [
+        23,
+        27
+       ],
+       "pixel": [
+        89,
+        105
+       ]
+      },
+      {
+       "latent": [
+        27,
+        33
+       ],
+       "pixel": [
+        105,
+        129
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S05",
+   "source": "ours",
+   "source_id": "S05",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "dog",
+   "entities": [
+    {
+     "name": "dog",
+     "description": "a golden retriever with a green collar"
+    }
+   ],
+   "sentences": [
+    "A golden retriever with a green collar sits on the grass of a sunny park, staring at a thrown tennis ball.",
+    "A golden retriever with a green collar sprints across the park lawn after the bouncing tennis ball.",
+    "A golden retriever with a green collar leaps and catches the tennis ball in mid-air.",
+    "A golden retriever with a green collar trots back across the lawn with the tennis ball in its mouth."
+   ],
+   "sentences_raw": null,
+   "prompt": "A golden retriever with a green collar sits on the grass of a sunny park, staring at a thrown tennis ball. A golden retriever with a green collar sprints across the park lawn after the bouncing tennis ball. A golden retriever with a green collar leaps and catches the tennis ball in mid-air. A golden retriever with a green collar trots back across the lawn with the tennis ball in its mouth.",
+   "shots": 4,
+   "lengths": [
+    6,
+    8,
+    7,
+    7
+   ],
+   "frames": 109,
+   "segments": {
+    "109": {
+     "latent_frames": 28,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        6
+       ],
+       "pixel": [
+        0,
+        21
+       ]
+      },
+      {
+       "latent": [
+        6,
+        14
+       ],
+       "pixel": [
+        21,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        21
+       ],
+       "pixel": [
+        53,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        28
+       ],
+       "pixel": [
+        81,
+        109
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S06",
+   "source": "ours",
+   "source_id": "S06",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "rower",
+   "entities": [
+    {
+     "name": "rower",
+     "description": "an old man with a white beard, a wide straw hat and a faded red shirt"
+    }
+   ],
+   "sentences": [
+    "An old man with a white beard, a wide straw hat and a faded red shirt pushes a wooden canoe off a pebble shore into a misty lake at dawn.",
+    "An old man with a white beard, a wide straw hat and a faded red shirt paddles the wooden canoe slowly across the still misty lake.",
+    "An old man with a white beard, a wide straw hat and a faded red shirt rests the paddle across the canoe and watches the sun rise over the lake."
+   ],
+   "sentences_raw": null,
+   "prompt": "An old man with a white beard, a wide straw hat and a faded red shirt pushes a wooden canoe off a pebble shore into a misty lake at dawn. An old man with a white beard, a wide straw hat and a faded red shirt paddles the wooden canoe slowly across the still misty lake. An old man with a white beard, a wide straw hat and a faded red shirt rests the paddle across the canoe and watches the sun rise over the lake.",
+   "shots": 3,
+   "lengths": [
+    7,
+    7,
+    8
+   ],
+   "frames": 85,
+   "segments": {
+    "85": {
+     "latent_frames": 22,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        7
+       ],
+       "pixel": [
+        0,
+        25
+       ]
+      },
+      {
+       "latent": [
+        7,
+        14
+       ],
+       "pixel": [
+        25,
+        53
+       ]
+      },
+      {
+       "latent": [
+        14,
+        22
+       ],
+       "pixel": [
+        53,
+        85
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S07",
+   "source": "ours",
+   "source_id": "S07",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "painter",
+   "entities": [
+    {
+     "name": "painter",
+     "description": "a teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap"
+    }
+   ],
+   "sentences": [
+    "A teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap dips a wide brush into a can of white paint next to a weathered wooden fence.",
+    "A teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap paints long white strokes along the wooden fence in a sunny backyard.",
+    "A teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap steps back and wipes his forehead in front of the freshly painted white fence."
+   ],
+   "sentences_raw": null,
+   "prompt": "A teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap dips a wide brush into a can of white paint next to a weathered wooden fence. A teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap paints long white strokes along the wooden fence in a sunny backyard. A teenage boy with messy brown hair, paint-splattered overalls and a backwards red cap steps back and wipes his forehead in front of the freshly painted white fence.",
+   "shots": 3,
+   "lengths": [
+    8,
+    7,
+    6
+   ],
+   "frames": 81,
+   "segments": {
+    "81": {
+     "latent_frames": 21,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        8
+       ],
+       "pixel": [
+        0,
+        29
+       ]
+      },
+      {
+       "latent": [
+        8,
+        15
+       ],
+       "pixel": [
+        29,
+        57
+       ]
+      },
+      {
+       "latent": [
+        15,
+        21
+       ],
+       "pixel": [
+        57,
+        81
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S08",
+   "source": "ours",
+   "source_id": "S08",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "blacksmith",
+   "entities": [
+    {
+     "name": "blacksmith",
+     "description": "a muscular blacksmith with a braided brown beard and a scorched leather apron"
+    }
+   ],
+   "sentences": [
+    "A muscular blacksmith with a braided brown beard and a scorched leather apron pulls a glowing orange steel bar out of a coal forge with tongs.",
+    "A muscular blacksmith with a braided brown beard and a scorched leather apron hammers the glowing bar on an anvil, sparks flying.",
+    "A muscular blacksmith with a braided brown beard and a scorched leather apron turns the bar on the anvil and hammers its edge flat.",
+    "A muscular blacksmith with a braided brown beard and a scorched leather apron plunges the hot blade into a bucket of water, steam rising.",
+    "A muscular blacksmith with a braided brown beard and a scorched leather apron holds up the dark blade to the light of the forge and inspects it."
+   ],
+   "sentences_raw": null,
+   "prompt": "A muscular blacksmith with a braided brown beard and a scorched leather apron pulls a glowing orange steel bar out of a coal forge with tongs. A muscular blacksmith with a braided brown beard and a scorched leather apron hammers the glowing bar on an anvil, sparks flying. A muscular blacksmith with a braided brown beard and a scorched leather apron turns the bar on the anvil and hammers its edge flat. A muscular blacksmith with a braided brown beard and a scorched leather apron plunges the hot blade into a bucket of water, steam rising. A muscular blacksmith with a braided brown beard and a scorched leather apron holds up the dark blade to the light of the forge and inspects it.",
+   "shots": 5,
+   "lengths": [
+    5,
+    8,
+    8,
+    10,
+    8
+   ],
+   "frames": 153,
+   "segments": {
+    "153": {
+     "latent_frames": 39,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        5
+       ],
+       "pixel": [
+        0,
+        17
+       ]
+      },
+      {
+       "latent": [
+        5,
+        13
+       ],
+       "pixel": [
+        17,
+        49
+       ]
+      },
+      {
+       "latent": [
+        13,
+        21
+       ],
+       "pixel": [
+        49,
+        81
+       ]
+      },
+      {
+       "latent": [
+        21,
+        31
+       ],
+       "pixel": [
+        81,
+        121
+       ]
+      },
+      {
+       "latent": [
+        31,
+        39
+       ],
+       "pixel": [
+        121,
+        153
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S09",
+   "source": "ours",
+   "source_id": "S09",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "dancer",
+   "entities": [
+    {
+     "name": "dancer",
+     "description": "a street dancer with a high black ponytail, a white crop top and red baggy track pants"
+    }
+   ],
+   "sentences": [
+    "A street dancer with a high black ponytail, a white crop top and red baggy track pants starts dancing to music on a cardboard sheet in a city plaza.",
+    "A street dancer with a high black ponytail, a white crop top and red baggy track pants spins on her back on the cardboard sheet.",
+    "A street dancer with a high black ponytail, a white crop top and red baggy track pants freezes in a one-handed handstand on the cardboard sheet.",
+    "A street dancer with a high black ponytail, a white crop top and red baggy track pants jumps to her feet and bows to the clapping crowd in the plaza."
+   ],
+   "sentences_raw": null,
+   "prompt": "A street dancer with a high black ponytail, a white crop top and red baggy track pants starts dancing to music on a cardboard sheet in a city plaza. A street dancer with a high black ponytail, a white crop top and red baggy track pants spins on her back on the cardboard sheet. A street dancer with a high black ponytail, a white crop top and red baggy track pants freezes in a one-handed handstand on the cardboard sheet. A street dancer with a high black ponytail, a white crop top and red baggy track pants jumps to her feet and bows to the clapping crowd in the plaza.",
+   "shots": 4,
+   "lengths": [
+    5,
+    4,
+    7,
+    6
+   ],
+   "frames": 85,
+   "segments": {
+    "85": {
+     "latent_frames": 22,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        5
+       ],
+       "pixel": [
+        0,
+        17
+       ]
+      },
+      {
+       "latent": [
+        5,
+        9
+       ],
+       "pixel": [
+        17,
+        33
+       ]
+      },
+      {
+       "latent": [
+        9,
+        16
+       ],
+       "pixel": [
+        33,
+        61
+       ]
+      },
+      {
+       "latent": [
+        16,
+        22
+       ],
+       "pixel": [
+        61,
+        85
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  },
+  {
+   "id": "ours_S10",
+   "source": "ours",
+   "source_id": "S10",
+   "license": "CC BY 4.0 (this work)",
+   "category": "simple",
+   "pattern": "continuous activity",
+   "subject": "mountain biker",
+   "entities": [
+    {
+     "name": "rider",
+     "description": "a mountain biker with a matte black helmet, orange goggles and a lime green jersey"
+    }
+   ],
+   "sentences": [
+    "A mountain biker with a matte black helmet, orange goggles and a lime green jersey pushes off at the top of a steep forest trail.",
+    "A mountain biker with a matte black helmet, orange goggles and a lime green jersey rides fast down the dusty forest trail between pine trees.",
+    "A mountain biker with a matte black helmet, orange goggles and a lime green jersey jumps the bike over a fallen log on the forest trail.",
+    "A mountain biker with a matte black helmet, orange goggles and a lime green jersey skids to a stop at the bottom of the trail and lifts the goggles."
+   ],
+   "sentences_raw": null,
+   "prompt": "A mountain biker with a matte black helmet, orange goggles and a lime green jersey pushes off at the top of a steep forest trail. A mountain biker with a matte black helmet, orange goggles and a lime green jersey rides fast down the dusty forest trail between pine trees. A mountain biker with a matte black helmet, orange goggles and a lime green jersey jumps the bike over a fallen log on the forest trail. A mountain biker with a matte black helmet, orange goggles and a lime green jersey skids to a stop at the bottom of the trail and lifts the goggles.",
+   "shots": 4,
+   "lengths": [
+    5,
+    7,
+    5,
+    6
+   ],
+   "frames": 89,
+   "segments": {
+    "89": {
+     "latent_frames": 23,
+     "per_sentence": [
+      {
+       "latent": [
+        0,
+        5
+       ],
+       "pixel": [
+        0,
+        17
+       ]
+      },
+      {
+       "latent": [
+        5,
+        12
+       ],
+       "pixel": [
+        17,
+        45
+       ]
+      },
+      {
+       "latent": [
+        12,
+        17
+       ],
+       "pixel": [
+        45,
+        65
+       ]
+      },
+      {
+       "latent": [
+        17,
+        23
+       ],
+       "pixel": [
+        65,
+        89
+       ]
+      }
+     ]
+    }
+   },
+   "edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "duration_source": "normal(7, 2)"
+  }
+ ]
+}
