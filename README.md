@@ -6,8 +6,7 @@ frames. Scene scopes are packed into dense variable-length attention, and multi-
 choosing between K/V gathering and Ulysses-style parallelism.
 
 **OneReel: Efficient Multi-Scene Video Generation with Scene-Structured Attention**
-[[Paper]](https://arxiv.org/abs/2611.10594)
-<!-- TODO: project page link once it is deployed -->
+[[Paper]](https://arxiv.org/abs/2611.10594) [[Project page]](https://en-2863.github.io/OneReel/)
 Wei Zhang\*, Yuchen Wang\*, Tianrui Feng, Hongrui Wu, Chenfeng Xu, Fan Lai (\* equal contribution)
 
 Models: HunyuanVideo-1.5 480p t2v, Wan2.2-TI2V-5B, MiniMax-H3 t2va, CogVideoX1.5-5B. The engine is `src/onereel`;
